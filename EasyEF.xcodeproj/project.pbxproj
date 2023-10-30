@@ -1,0 +1,1119 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1027F14C28C4FFB80030EAEB /* DischargeForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1027F14B28C4FFB80030EAEB /* DischargeForm.swift */; };
+		10445C1028844129004E359B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10445C0F28844129004E359B /* AppDelegate.swift */; };
+		10445C1228844129004E359B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10445C1128844129004E359B /* SceneDelegate.swift */; };
+		10445C1728844129004E359B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10445C1528844129004E359B /* Main.storyboard */; };
+		10445C192884412C004E359B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10445C182884412C004E359B /* Assets.xcassets */; };
+		10445C1C2884412C004E359B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10445C1A2884412C004E359B /* LaunchScreen.storyboard */; };
+		10445C272884412C004E359B /* EasyEFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10445C262884412C004E359B /* EasyEFTests.swift */; };
+		10445C312884412C004E359B /* EasyEFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10445C302884412C004E359B /* EasyEFUITests.swift */; };
+		10445C332884412C004E359B /* EasyEFUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10445C322884412C004E359B /* EasyEFUITestsLaunchTests.swift */; };
+		10445C6228844353004E359B /* Prompt-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C4128844353004E359B /* Prompt-ThinItalic.ttf */; };
+		10445C6328844353004E359B /* Prompt-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C4228844353004E359B /* Prompt-BlackItalic.ttf */; };
+		10445C6428844353004E359B /* Prompt-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C4328844353004E359B /* Prompt-ExtraLight.ttf */; };
+		10445C6528844353004E359B /* Prompt-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C4428844353004E359B /* Prompt-MediumItalic.ttf */; };
+		10445C6628844353004E359B /* Prompt-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C4528844353004E359B /* Prompt-BoldItalic.ttf */; };
+		10445C6728844353004E359B /* Prompt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C4628844353004E359B /* Prompt-Medium.ttf */; };
+		10445C6828844353004E359B /* Prompt-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C4728844353004E359B /* Prompt-Light.ttf */; };
+		10445C6928844353004E359B /* Prompt-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C4828844353004E359B /* Prompt-ExtraBold.ttf */; };
+		10445C6A28844353004E359B /* Prompt-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C4928844353004E359B /* Prompt-Thin.ttf */; };
+		10445C6B28844353004E359B /* Prompt-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C4A28844353004E359B /* Prompt-LightItalic.ttf */; };
+		10445C6C28844353004E359B /* Prompt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C4B28844353004E359B /* Prompt-Bold.ttf */; };
+		10445C6D28844353004E359B /* Prompt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C4C28844353004E359B /* Prompt-SemiBold.ttf */; };
+		10445C6E28844353004E359B /* Prompt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C4D28844353004E359B /* Prompt-Regular.ttf */; };
+		10445C6F28844353004E359B /* Prompt-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C4E28844353004E359B /* Prompt-ExtraLightItalic.ttf */; };
+		10445C7028844353004E359B /* Prompt-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C4F28844353004E359B /* Prompt-SemiBoldItalic.ttf */; };
+		10445C7128844353004E359B /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 10445C5028844353004E359B /* OFL.txt */; };
+		10445C7228844353004E359B /* Prompt-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C5128844353004E359B /* Prompt-ExtraBoldItalic.ttf */; };
+		10445C7328844353004E359B /* Prompt-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C5228844353004E359B /* Prompt-Italic.ttf */; };
+		10445C7428844353004E359B /* Prompt-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C5328844353004E359B /* Prompt-Black.ttf */; };
+		10445C7528844353004E359B /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C5528844353004E359B /* Roboto-Medium.ttf */; };
+		10445C7628844353004E359B /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C5628844353004E359B /* Roboto-Light.ttf */; };
+		10445C7728844353004E359B /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C5728844353004E359B /* Roboto-Regular.ttf */; };
+		10445C7828844353004E359B /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C5828844353004E359B /* Roboto-MediumItalic.ttf */; };
+		10445C7928844353004E359B /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C5928844353004E359B /* Roboto-ThinItalic.ttf */; };
+		10445C7A28844353004E359B /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C5A28844353004E359B /* Roboto-BoldItalic.ttf */; };
+		10445C7B28844353004E359B /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C5B28844353004E359B /* Roboto-LightItalic.ttf */; };
+		10445C7C28844353004E359B /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C5C28844353004E359B /* Roboto-Italic.ttf */; };
+		10445C7D28844353004E359B /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 10445C5D28844353004E359B /* LICENSE.txt */; };
+		10445C7E28844353004E359B /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C5E28844353004E359B /* Roboto-BlackItalic.ttf */; };
+		10445C7F28844353004E359B /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C5F28844353004E359B /* Roboto-Bold.ttf */; };
+		10445C8028844353004E359B /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C6028844353004E359B /* Roboto-Thin.ttf */; };
+		10445C8128844353004E359B /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10445C6128844353004E359B /* Roboto-Black.ttf */; };
+		10445C902884436E004E359B /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10445C832884436E004E359B /* MyCell.swift */; };
+		10445C912884436E004E359B /* MyUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10445C842884436E004E359B /* MyUI.swift */; };
+		10445C922884436E004E359B /* MyDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10445C852884436E004E359B /* MyDatePicker.swift */; };
+		10445C932884436E004E359B /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10445C862884436E004E359B /* Login.swift */; };
+		10445C942884436E004E359B /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10445C872884436E004E359B /* SignUp.swift */; };
+		10445C952884436E004E359B /* PreLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10445C882884436E004E359B /* PreLogin.swift */; };
+		10445C962884436E004E359B /* EchoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10445C892884436E004E359B /* EchoDetail.swift */; };
+		10445C972884436E004E359B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10445C8B2884436E004E359B /* Model.swift */; };
+		10445C982884436E004E359B /* MyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10445C8C2884436E004E359B /* MyExtension.swift */; };
+		10445C992884436E004E359B /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10445C8D2884436E004E359B /* Login.storyboard */; };
+		10445C9A2884436E004E359B /* ForgetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10445C8E2884436E004E359B /* ForgetPassword.swift */; };
+		10445C9B2884436E004E359B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10445C8F2884436E004E359B /* Home.swift */; };
+		104E11E92A7A2DEA004FE008 /* Dose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104E11E82A7A2DEA004FE008 /* Dose.swift */; };
+		106908AF2897A3090014C8D3 /* MySearchTextFieldItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106908AE2897A3090014C8D3 /* MySearchTextFieldItem.swift */; };
+		106ED41328CD977D00DB612A /* DischargeWeb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ED41228CD977C00DB612A /* DischargeWeb.swift */; };
+		108FAD612AAEF48300DA1E5F /* Assessment_Web.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108FAD602AAEF48300DA1E5F /* Assessment_Web.swift */; };
+		10A10D4C28B897FA00F4C64F /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A10D4828B897FA00F4C64F /* Camera.swift */; };
+		10A10D4D28B897FA00F4C64F /* UploadVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A10D4928B897FA00F4C64F /* UploadVideo.swift */; };
+		10A10D4E28B897FA00F4C64F /* VideoEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A10D4A28B897FA00F4C64F /* VideoEditor.swift */; };
+		10A10D4F28B897FA00F4C64F /* VideoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A10D4B28B897FA00F4C64F /* VideoHelper.swift */; };
+		10A10D5128B8AF1100F4C64F /* EchoInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A10D5028B8AF1100F4C64F /* EchoInput.swift */; };
+		10A25CDF2A96269000939FD0 /* Assessment1_7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A25CDE2A96269000939FD0 /* Assessment1_7.swift */; };
+		10A25CE12A962C6C00939FD0 /* Assessment1_8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A25CE02A962C6C00939FD0 /* Assessment1_8.swift */; };
+		10A25CE32A9630DA00939FD0 /* Assessment_Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A25CE22A9630DA00939FD0 /* Assessment_Result.swift */; };
+		10A68FF72A6A973500BCBDCC /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 10A68FF62A6A973500BCBDCC /* loading.gif */; };
+		10A693D92A1DD4B500023513 /* Guide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10A693D82A1DD4B400023513 /* Guide.storyboard */; };
+		10A693DE2A1DE81300023513 /* Assessment1_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A693DD2A1DE81300023513 /* Assessment1_3.swift */; };
+		10A693E02A1DE93C00023513 /* Assessment0_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A693DF2A1DE93C00023513 /* Assessment0_1.swift */; };
+		10A6BCBA2A84B4570033DBEB /* Assessment_Fine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A6BCB92A84B4570033DBEB /* Assessment_Fine.swift */; };
+		10A6BCBC2A84B56A0033DBEB /* Assessment0_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A6BCBB2A84B56A0033DBEB /* Assessment0_2.swift */; };
+		10A6BCBE2A84B5B30033DBEB /* Assessment0_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A6BCBD2A84B5B30033DBEB /* Assessment0_3.swift */; };
+		10A6BCC02A84B7840033DBEB /* Assessment1_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A6BCBF2A84B7840033DBEB /* Assessment1_1.swift */; };
+		10A6BCC22A84BA440033DBEB /* Assessment1_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A6BCC12A84BA440033DBEB /* Assessment1_2.swift */; };
+		10A6BCC42A95DD970033DBEB /* Assessment1_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A6BCC32A95DD970033DBEB /* Assessment1_4.swift */; };
+		10A6BCC62A95F9160033DBEB /* Assessment1_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A6BCC52A95F9160033DBEB /* Assessment1_5.swift */; };
+		10A6BCC82A96199C0033DBEB /* Assessment1_6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A6BCC72A96199C0033DBEB /* Assessment1_6.swift */; };
+		10E3031E28B8D02000F6422D /* Web.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E3031D28B8D02000F6422D /* Web.swift */; };
+		10E3032028B8FD0100F6422D /* Patient_Discharge.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E3031F28B8FD0100F6422D /* Patient_Discharge.storyboard */; };
+		10E3032228B900ED00F6422D /* PatientList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E3032128B900ED00F6422D /* PatientList.swift */; };
+		10E3032428B909F400F6422D /* PatientDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E3032328B909F400F6422D /* PatientDetail.swift */; };
+		10E3032628B9120900F6422D /* DischargeInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E3032528B9120900F6422D /* DischargeInput.swift */; };
+		29172533B871DB01EF0E9EE8 /* Pods_EasyEFTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7103598DC66A1DDE05DD4F5 /* Pods_EasyEFTests.framework */; };
+		A40206C2F3BAF9B69E065527 /* Pods_EasyEF_EasyEFUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17FDA4385F779014434B600 /* Pods_EasyEF_EasyEFUITests.framework */; };
+		F046E8BA263421941A1D79A8 /* Pods_EasyEF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3397FDD4E85933707675F819 /* Pods_EasyEF.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10445C232884412C004E359B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10445C0428844129004E359B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10445C0B28844129004E359B;
+			remoteInfo = EasyEF;
+		};
+		10445C2D2884412C004E359B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10445C0428844129004E359B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10445C0B28844129004E359B;
+			remoteInfo = EasyEF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		035F1BC977C406207FD77F13 /* Pods-EasyEF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyEF.release.xcconfig"; path = "Target Support Files/Pods-EasyEF/Pods-EasyEF.release.xcconfig"; sourceTree = "<group>"; };
+		1027F14B28C4FFB80030EAEB /* DischargeForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DischargeForm.swift; sourceTree = "<group>"; };
+		10445C0C28844129004E359B /* EasyEF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyEF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10445C0F28844129004E359B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10445C1128844129004E359B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		10445C1628844129004E359B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10445C182884412C004E359B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10445C1B2884412C004E359B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10445C222884412C004E359B /* EasyEFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyEFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10445C262884412C004E359B /* EasyEFTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyEFTests.swift; sourceTree = "<group>"; };
+		10445C2C2884412C004E359B /* EasyEFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyEFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10445C302884412C004E359B /* EasyEFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyEFUITests.swift; sourceTree = "<group>"; };
+		10445C322884412C004E359B /* EasyEFUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyEFUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		10445C4128844353004E359B /* Prompt-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-ThinItalic.ttf"; sourceTree = "<group>"; };
+		10445C4228844353004E359B /* Prompt-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-BlackItalic.ttf"; sourceTree = "<group>"; };
+		10445C4328844353004E359B /* Prompt-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-ExtraLight.ttf"; sourceTree = "<group>"; };
+		10445C4428844353004E359B /* Prompt-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-MediumItalic.ttf"; sourceTree = "<group>"; };
+		10445C4528844353004E359B /* Prompt-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-BoldItalic.ttf"; sourceTree = "<group>"; };
+		10445C4628844353004E359B /* Prompt-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-Medium.ttf"; sourceTree = "<group>"; };
+		10445C4728844353004E359B /* Prompt-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-Light.ttf"; sourceTree = "<group>"; };
+		10445C4828844353004E359B /* Prompt-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-ExtraBold.ttf"; sourceTree = "<group>"; };
+		10445C4928844353004E359B /* Prompt-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-Thin.ttf"; sourceTree = "<group>"; };
+		10445C4A28844353004E359B /* Prompt-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-LightItalic.ttf"; sourceTree = "<group>"; };
+		10445C4B28844353004E359B /* Prompt-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-Bold.ttf"; sourceTree = "<group>"; };
+		10445C4C28844353004E359B /* Prompt-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-SemiBold.ttf"; sourceTree = "<group>"; };
+		10445C4D28844353004E359B /* Prompt-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-Regular.ttf"; sourceTree = "<group>"; };
+		10445C4E28844353004E359B /* Prompt-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		10445C4F28844353004E359B /* Prompt-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		10445C5028844353004E359B /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		10445C5128844353004E359B /* Prompt-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		10445C5228844353004E359B /* Prompt-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-Italic.ttf"; sourceTree = "<group>"; };
+		10445C5328844353004E359B /* Prompt-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prompt-Black.ttf"; sourceTree = "<group>"; };
+		10445C5528844353004E359B /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		10445C5628844353004E359B /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		10445C5728844353004E359B /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		10445C5828844353004E359B /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		10445C5928844353004E359B /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		10445C5A28844353004E359B /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		10445C5B28844353004E359B /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		10445C5C28844353004E359B /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		10445C5D28844353004E359B /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		10445C5E28844353004E359B /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		10445C5F28844353004E359B /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		10445C6028844353004E359B /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		10445C6128844353004E359B /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		10445C832884436E004E359B /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		10445C842884436E004E359B /* MyUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyUI.swift; sourceTree = "<group>"; };
+		10445C852884436E004E359B /* MyDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDatePicker.swift; sourceTree = "<group>"; };
+		10445C862884436E004E359B /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		10445C872884436E004E359B /* SignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		10445C882884436E004E359B /* PreLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreLogin.swift; sourceTree = "<group>"; };
+		10445C892884436E004E359B /* EchoDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EchoDetail.swift; sourceTree = "<group>"; };
+		10445C8B2884436E004E359B /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		10445C8C2884436E004E359B /* MyExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyExtension.swift; sourceTree = "<group>"; };
+		10445C8D2884436E004E359B /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		10445C8E2884436E004E359B /* ForgetPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgetPassword.swift; sourceTree = "<group>"; };
+		10445C8F2884436E004E359B /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		104E11E82A7A2DEA004FE008 /* Dose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dose.swift; sourceTree = "<group>"; };
+		106908AE2897A3090014C8D3 /* MySearchTextFieldItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySearchTextFieldItem.swift; sourceTree = "<group>"; };
+		106ED41228CD977C00DB612A /* DischargeWeb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DischargeWeb.swift; sourceTree = "<group>"; };
+		108FAD602AAEF48300DA1E5F /* Assessment_Web.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assessment_Web.swift; sourceTree = "<group>"; };
+		10A10D4828B897FA00F4C64F /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		10A10D4928B897FA00F4C64F /* UploadVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadVideo.swift; sourceTree = "<group>"; };
+		10A10D4A28B897FA00F4C64F /* VideoEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoEditor.swift; sourceTree = "<group>"; };
+		10A10D4B28B897FA00F4C64F /* VideoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoHelper.swift; sourceTree = "<group>"; };
+		10A10D5028B8AF1100F4C64F /* EchoInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchoInput.swift; sourceTree = "<group>"; };
+		10A25CDE2A96269000939FD0 /* Assessment1_7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assessment1_7.swift; sourceTree = "<group>"; };
+		10A25CE02A962C6C00939FD0 /* Assessment1_8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assessment1_8.swift; sourceTree = "<group>"; };
+		10A25CE22A9630DA00939FD0 /* Assessment_Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assessment_Result.swift; sourceTree = "<group>"; };
+		10A68FF62A6A973500BCBDCC /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		10A693D82A1DD4B400023513 /* Guide.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Guide.storyboard; sourceTree = "<group>"; };
+		10A693DD2A1DE81300023513 /* Assessment1_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assessment1_3.swift; sourceTree = "<group>"; };
+		10A693DF2A1DE93C00023513 /* Assessment0_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assessment0_1.swift; sourceTree = "<group>"; };
+		10A6BCB92A84B4570033DBEB /* Assessment_Fine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assessment_Fine.swift; sourceTree = "<group>"; };
+		10A6BCBB2A84B56A0033DBEB /* Assessment0_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assessment0_2.swift; sourceTree = "<group>"; };
+		10A6BCBD2A84B5B30033DBEB /* Assessment0_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assessment0_3.swift; sourceTree = "<group>"; };
+		10A6BCBF2A84B7840033DBEB /* Assessment1_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assessment1_1.swift; sourceTree = "<group>"; };
+		10A6BCC12A84BA440033DBEB /* Assessment1_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assessment1_2.swift; sourceTree = "<group>"; };
+		10A6BCC32A95DD970033DBEB /* Assessment1_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assessment1_4.swift; sourceTree = "<group>"; };
+		10A6BCC52A95F9160033DBEB /* Assessment1_5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assessment1_5.swift; sourceTree = "<group>"; };
+		10A6BCC72A96199C0033DBEB /* Assessment1_6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assessment1_6.swift; sourceTree = "<group>"; };
+		10E3031B28B8BFFB00F6422D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10E3031D28B8D02000F6422D /* Web.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web.swift; sourceTree = "<group>"; };
+		10E3031F28B8FD0100F6422D /* Patient_Discharge.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Patient_Discharge.storyboard; sourceTree = "<group>"; };
+		10E3032128B900ED00F6422D /* PatientList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientList.swift; sourceTree = "<group>"; };
+		10E3032328B909F400F6422D /* PatientDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientDetail.swift; sourceTree = "<group>"; };
+		10E3032528B9120900F6422D /* DischargeInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DischargeInput.swift; sourceTree = "<group>"; };
+		3397FDD4E85933707675F819 /* Pods_EasyEF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyEF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DACFD491CD6142A85993733 /* Pods-EasyEF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyEF.debug.xcconfig"; path = "Target Support Files/Pods-EasyEF/Pods-EasyEF.debug.xcconfig"; sourceTree = "<group>"; };
+		93EAB3D6479B0E6AC38235C6 /* Pods-EasyEF-EasyEFUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyEF-EasyEFUITests.release.xcconfig"; path = "Target Support Files/Pods-EasyEF-EasyEFUITests/Pods-EasyEF-EasyEFUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A7103598DC66A1DDE05DD4F5 /* Pods_EasyEFTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyEFTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC7AC0A26C7F2D9B720D56E /* Pods-EasyEFTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyEFTests.release.xcconfig"; path = "Target Support Files/Pods-EasyEFTests/Pods-EasyEFTests.release.xcconfig"; sourceTree = "<group>"; };
+		DFC529F6DC3D121CE07333A4 /* Pods-EasyEFTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyEFTests.debug.xcconfig"; path = "Target Support Files/Pods-EasyEFTests/Pods-EasyEFTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E82E68DB93F06CEDC1681975 /* Pods-EasyEF-EasyEFUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyEF-EasyEFUITests.debug.xcconfig"; path = "Target Support Files/Pods-EasyEF-EasyEFUITests/Pods-EasyEF-EasyEFUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F17FDA4385F779014434B600 /* Pods_EasyEF_EasyEFUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyEF_EasyEFUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10445C0928844129004E359B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F046E8BA263421941A1D79A8 /* Pods_EasyEF.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10445C1F2884412C004E359B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29172533B871DB01EF0E9EE8 /* Pods_EasyEFTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10445C292884412C004E359B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40206C2F3BAF9B69E065527 /* Pods_EasyEF_EasyEFUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10445C0328844129004E359B = {
+			isa = PBXGroup;
+			children = (
+				10445C0E28844129004E359B /* EasyEF */,
+				10445C252884412C004E359B /* EasyEFTests */,
+				10445C2F2884412C004E359B /* EasyEFUITests */,
+				10445C0D28844129004E359B /* Products */,
+				892BCFF8B3E41DC985174CDD /* Pods */,
+				5D8A346BDF9050BBF32263DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		10445C0D28844129004E359B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10445C0C28844129004E359B /* EasyEF.app */,
+				10445C222884412C004E359B /* EasyEFTests.xctest */,
+				10445C2C2884412C004E359B /* EasyEFUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10445C0E28844129004E359B /* EasyEF */ = {
+			isa = PBXGroup;
+			children = (
+				10445C0F28844129004E359B /* AppDelegate.swift */,
+				10445C1128844129004E359B /* SceneDelegate.swift */,
+				10445C8D2884436E004E359B /* Login.storyboard */,
+				10445C882884436E004E359B /* PreLogin.swift */,
+				10445C872884436E004E359B /* SignUp.swift */,
+				106908AE2897A3090014C8D3 /* MySearchTextFieldItem.swift */,
+				10445C862884436E004E359B /* Login.swift */,
+				10445C8E2884436E004E359B /* ForgetPassword.swift */,
+				10445C1528844129004E359B /* Main.storyboard */,
+				10445C8F2884436E004E359B /* Home.swift */,
+				10A693DA2A1DE78000023513 /* Guide */,
+				10A10D4828B897FA00F4C64F /* Camera.swift */,
+				10A10D4928B897FA00F4C64F /* UploadVideo.swift */,
+				10A10D5028B8AF1100F4C64F /* EchoInput.swift */,
+				10445C892884436E004E359B /* EchoDetail.swift */,
+				10E3031D28B8D02000F6422D /* Web.swift */,
+				10E3031F28B8FD0100F6422D /* Patient_Discharge.storyboard */,
+				10E3032128B900ED00F6422D /* PatientList.swift */,
+				10E3032328B909F400F6422D /* PatientDetail.swift */,
+				106ED41228CD977C00DB612A /* DischargeWeb.swift */,
+				10A68FF62A6A973500BCBDCC /* loading.gif */,
+				10445C182884412C004E359B /* Assets.xcassets */,
+				10E3031B28B8BFFB00F6422D /* Info.plist */,
+				10E3032528B9120900F6422D /* DischargeInput.swift */,
+				1027F14B28C4FFB80030EAEB /* DischargeForm.swift */,
+				10445C1A2884412C004E359B /* LaunchScreen.storyboard */,
+				10445C8A2884436E004E359B /* Extension */,
+				10445C822884436E004E359B /* CustomUI */,
+				10445C3F28844353004E359B /* Font */,
+			);
+			path = EasyEF;
+			sourceTree = "<group>";
+		};
+		10445C252884412C004E359B /* EasyEFTests */ = {
+			isa = PBXGroup;
+			children = (
+				10445C262884412C004E359B /* EasyEFTests.swift */,
+			);
+			path = EasyEFTests;
+			sourceTree = "<group>";
+		};
+		10445C2F2884412C004E359B /* EasyEFUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10445C302884412C004E359B /* EasyEFUITests.swift */,
+				10445C322884412C004E359B /* EasyEFUITestsLaunchTests.swift */,
+			);
+			path = EasyEFUITests;
+			sourceTree = "<group>";
+		};
+		10445C3F28844353004E359B /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				10445C4028844353004E359B /* Prompt */,
+				10445C5428844353004E359B /* Roboto */,
+			);
+			path = Font;
+			sourceTree = SOURCE_ROOT;
+		};
+		10445C4028844353004E359B /* Prompt */ = {
+			isa = PBXGroup;
+			children = (
+				10445C4128844353004E359B /* Prompt-ThinItalic.ttf */,
+				10445C4228844353004E359B /* Prompt-BlackItalic.ttf */,
+				10445C4328844353004E359B /* Prompt-ExtraLight.ttf */,
+				10445C4428844353004E359B /* Prompt-MediumItalic.ttf */,
+				10445C4528844353004E359B /* Prompt-BoldItalic.ttf */,
+				10445C4628844353004E359B /* Prompt-Medium.ttf */,
+				10445C4728844353004E359B /* Prompt-Light.ttf */,
+				10445C4828844353004E359B /* Prompt-ExtraBold.ttf */,
+				10445C4928844353004E359B /* Prompt-Thin.ttf */,
+				10445C4A28844353004E359B /* Prompt-LightItalic.ttf */,
+				10445C4B28844353004E359B /* Prompt-Bold.ttf */,
+				10445C4C28844353004E359B /* Prompt-SemiBold.ttf */,
+				10445C4D28844353004E359B /* Prompt-Regular.ttf */,
+				10445C4E28844353004E359B /* Prompt-ExtraLightItalic.ttf */,
+				10445C4F28844353004E359B /* Prompt-SemiBoldItalic.ttf */,
+				10445C5028844353004E359B /* OFL.txt */,
+				10445C5128844353004E359B /* Prompt-ExtraBoldItalic.ttf */,
+				10445C5228844353004E359B /* Prompt-Italic.ttf */,
+				10445C5328844353004E359B /* Prompt-Black.ttf */,
+			);
+			path = Prompt;
+			sourceTree = "<group>";
+		};
+		10445C5428844353004E359B /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				10445C5528844353004E359B /* Roboto-Medium.ttf */,
+				10445C5628844353004E359B /* Roboto-Light.ttf */,
+				10445C5728844353004E359B /* Roboto-Regular.ttf */,
+				10445C5828844353004E359B /* Roboto-MediumItalic.ttf */,
+				10445C5928844353004E359B /* Roboto-ThinItalic.ttf */,
+				10445C5A28844353004E359B /* Roboto-BoldItalic.ttf */,
+				10445C5B28844353004E359B /* Roboto-LightItalic.ttf */,
+				10445C5C28844353004E359B /* Roboto-Italic.ttf */,
+				10445C5D28844353004E359B /* LICENSE.txt */,
+				10445C5E28844353004E359B /* Roboto-BlackItalic.ttf */,
+				10445C5F28844353004E359B /* Roboto-Bold.ttf */,
+				10445C6028844353004E359B /* Roboto-Thin.ttf */,
+				10445C6128844353004E359B /* Roboto-Black.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		10445C822884436E004E359B /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				10445C832884436E004E359B /* MyCell.swift */,
+				10445C842884436E004E359B /* MyUI.swift */,
+				10445C852884436E004E359B /* MyDatePicker.swift */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		10445C8A2884436E004E359B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				10445C8C2884436E004E359B /* MyExtension.swift */,
+				10A10D4A28B897FA00F4C64F /* VideoEditor.swift */,
+				10A10D4B28B897FA00F4C64F /* VideoHelper.swift */,
+				10445C8B2884436E004E359B /* Model.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		10A693DA2A1DE78000023513 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				10A693D82A1DD4B400023513 /* Guide.storyboard */,
+				10A6BCB92A84B4570033DBEB /* Assessment_Fine.swift */,
+				10A693DF2A1DE93C00023513 /* Assessment0_1.swift */,
+				10A6BCBB2A84B56A0033DBEB /* Assessment0_2.swift */,
+				10A6BCBD2A84B5B30033DBEB /* Assessment0_3.swift */,
+				10A6BCBF2A84B7840033DBEB /* Assessment1_1.swift */,
+				10A6BCC12A84BA440033DBEB /* Assessment1_2.swift */,
+				10A693DD2A1DE81300023513 /* Assessment1_3.swift */,
+				10A6BCC32A95DD970033DBEB /* Assessment1_4.swift */,
+				10A6BCC52A95F9160033DBEB /* Assessment1_5.swift */,
+				10A6BCC72A96199C0033DBEB /* Assessment1_6.swift */,
+				10A25CDE2A96269000939FD0 /* Assessment1_7.swift */,
+				10A25CE02A962C6C00939FD0 /* Assessment1_8.swift */,
+				10A25CE22A9630DA00939FD0 /* Assessment_Result.swift */,
+				108FAD602AAEF48300DA1E5F /* Assessment_Web.swift */,
+				104E11E82A7A2DEA004FE008 /* Dose.swift */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		5D8A346BDF9050BBF32263DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3397FDD4E85933707675F819 /* Pods_EasyEF.framework */,
+				F17FDA4385F779014434B600 /* Pods_EasyEF_EasyEFUITests.framework */,
+				A7103598DC66A1DDE05DD4F5 /* Pods_EasyEFTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		892BCFF8B3E41DC985174CDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DACFD491CD6142A85993733 /* Pods-EasyEF.debug.xcconfig */,
+				035F1BC977C406207FD77F13 /* Pods-EasyEF.release.xcconfig */,
+				E82E68DB93F06CEDC1681975 /* Pods-EasyEF-EasyEFUITests.debug.xcconfig */,
+				93EAB3D6479B0E6AC38235C6 /* Pods-EasyEF-EasyEFUITests.release.xcconfig */,
+				DFC529F6DC3D121CE07333A4 /* Pods-EasyEFTests.debug.xcconfig */,
+				ADC7AC0A26C7F2D9B720D56E /* Pods-EasyEFTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10445C0B28844129004E359B /* EasyEF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10445C362884412C004E359B /* Build configuration list for PBXNativeTarget "EasyEF" */;
+			buildPhases = (
+				6B1DDE66E792FD564A60575F /* [CP] Check Pods Manifest.lock */,
+				10445C0828844129004E359B /* Sources */,
+				10445C0928844129004E359B /* Frameworks */,
+				10445C0A28844129004E359B /* Resources */,
+				7AD9D9FF5BC1BE09015BBBA8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyEF;
+			productName = EasyEF;
+			productReference = 10445C0C28844129004E359B /* EasyEF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10445C212884412C004E359B /* EasyEFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10445C392884412C004E359B /* Build configuration list for PBXNativeTarget "EasyEFTests" */;
+			buildPhases = (
+				16BE0D58F9F3A11BDE1F8B98 /* [CP] Check Pods Manifest.lock */,
+				10445C1E2884412C004E359B /* Sources */,
+				10445C1F2884412C004E359B /* Frameworks */,
+				10445C202884412C004E359B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10445C242884412C004E359B /* PBXTargetDependency */,
+			);
+			name = EasyEFTests;
+			productName = EasyEFTests;
+			productReference = 10445C222884412C004E359B /* EasyEFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10445C2B2884412C004E359B /* EasyEFUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10445C3C2884412C004E359B /* Build configuration list for PBXNativeTarget "EasyEFUITests" */;
+			buildPhases = (
+				EFF172167E08A2BFF34B6B45 /* [CP] Check Pods Manifest.lock */,
+				10445C282884412C004E359B /* Sources */,
+				10445C292884412C004E359B /* Frameworks */,
+				10445C2A2884412C004E359B /* Resources */,
+				4081C3BD0A460C512A356812 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10445C2E2884412C004E359B /* PBXTargetDependency */,
+			);
+			name = EasyEFUITests;
+			productName = EasyEFUITests;
+			productReference = 10445C2C2884412C004E359B /* EasyEFUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10445C0428844129004E359B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					10445C0B28844129004E359B = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					10445C212884412C004E359B = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 10445C0B28844129004E359B;
+					};
+					10445C2B2884412C004E359B = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 10445C0B28844129004E359B;
+					};
+				};
+			};
+			buildConfigurationList = 10445C0728844129004E359B /* Build configuration list for PBXProject "EasyEF" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10445C0328844129004E359B;
+			productRefGroup = 10445C0D28844129004E359B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10445C0B28844129004E359B /* EasyEF */,
+				10445C212884412C004E359B /* EasyEFTests */,
+				10445C2B2884412C004E359B /* EasyEFUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10445C0A28844129004E359B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10445C7228844353004E359B /* Prompt-ExtraBoldItalic.ttf in Resources */,
+				10445C1C2884412C004E359B /* LaunchScreen.storyboard in Resources */,
+				10445C8028844353004E359B /* Roboto-Thin.ttf in Resources */,
+				10445C7828844353004E359B /* Roboto-MediumItalic.ttf in Resources */,
+				10445C7728844353004E359B /* Roboto-Regular.ttf in Resources */,
+				10445C6B28844353004E359B /* Prompt-LightItalic.ttf in Resources */,
+				10445C6828844353004E359B /* Prompt-Light.ttf in Resources */,
+				10445C6228844353004E359B /* Prompt-ThinItalic.ttf in Resources */,
+				10445C992884436E004E359B /* Login.storyboard in Resources */,
+				10A68FF72A6A973500BCBDCC /* loading.gif in Resources */,
+				10445C7E28844353004E359B /* Roboto-BlackItalic.ttf in Resources */,
+				10E3032028B8FD0100F6422D /* Patient_Discharge.storyboard in Resources */,
+				10445C7C28844353004E359B /* Roboto-Italic.ttf in Resources */,
+				10445C192884412C004E359B /* Assets.xcassets in Resources */,
+				10445C6C28844353004E359B /* Prompt-Bold.ttf in Resources */,
+				10445C6D28844353004E359B /* Prompt-SemiBold.ttf in Resources */,
+				10445C6928844353004E359B /* Prompt-ExtraBold.ttf in Resources */,
+				10445C7328844353004E359B /* Prompt-Italic.ttf in Resources */,
+				10445C7D28844353004E359B /* LICENSE.txt in Resources */,
+				10445C6A28844353004E359B /* Prompt-Thin.ttf in Resources */,
+				10445C7528844353004E359B /* Roboto-Medium.ttf in Resources */,
+				10445C7128844353004E359B /* OFL.txt in Resources */,
+				10445C1728844129004E359B /* Main.storyboard in Resources */,
+				10445C7628844353004E359B /* Roboto-Light.ttf in Resources */,
+				10445C6428844353004E359B /* Prompt-ExtraLight.ttf in Resources */,
+				10445C6328844353004E359B /* Prompt-BlackItalic.ttf in Resources */,
+				10A693D92A1DD4B500023513 /* Guide.storyboard in Resources */,
+				10445C6528844353004E359B /* Prompt-MediumItalic.ttf in Resources */,
+				10445C7428844353004E359B /* Prompt-Black.ttf in Resources */,
+				10445C6728844353004E359B /* Prompt-Medium.ttf in Resources */,
+				10445C6F28844353004E359B /* Prompt-ExtraLightItalic.ttf in Resources */,
+				10445C7F28844353004E359B /* Roboto-Bold.ttf in Resources */,
+				10445C6628844353004E359B /* Prompt-BoldItalic.ttf in Resources */,
+				10445C7928844353004E359B /* Roboto-ThinItalic.ttf in Resources */,
+				10445C6E28844353004E359B /* Prompt-Regular.ttf in Resources */,
+				10445C7A28844353004E359B /* Roboto-BoldItalic.ttf in Resources */,
+				10445C8128844353004E359B /* Roboto-Black.ttf in Resources */,
+				10445C7B28844353004E359B /* Roboto-LightItalic.ttf in Resources */,
+				10445C7028844353004E359B /* Prompt-SemiBoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10445C202884412C004E359B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10445C2A2884412C004E359B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16BE0D58F9F3A11BDE1F8B98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyEFTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4081C3BD0A460C512A356812 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyEF-EasyEFUITests/Pods-EasyEF-EasyEFUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyEF-EasyEFUITests/Pods-EasyEF-EasyEFUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyEF-EasyEFUITests/Pods-EasyEF-EasyEFUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B1DDE66E792FD564A60575F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyEF-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AD9D9FF5BC1BE09015BBBA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyEF/Pods-EasyEF-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyEF/Pods-EasyEF-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyEF/Pods-EasyEF-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFF172167E08A2BFF34B6B45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyEF-EasyEFUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10445C0828844129004E359B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A25CE12A962C6C00939FD0 /* Assessment1_8.swift in Sources */,
+				104E11E92A7A2DEA004FE008 /* Dose.swift in Sources */,
+				10A6BCBC2A84B56A0033DBEB /* Assessment0_2.swift in Sources */,
+				10E3032628B9120900F6422D /* DischargeInput.swift in Sources */,
+				10445C942884436E004E359B /* SignUp.swift in Sources */,
+				10445C952884436E004E359B /* PreLogin.swift in Sources */,
+				10445C902884436E004E359B /* MyCell.swift in Sources */,
+				10A25CDF2A96269000939FD0 /* Assessment1_7.swift in Sources */,
+				10445C962884436E004E359B /* EchoDetail.swift in Sources */,
+				10E3032428B909F400F6422D /* PatientDetail.swift in Sources */,
+				108FAD612AAEF48300DA1E5F /* Assessment_Web.swift in Sources */,
+				106ED41328CD977D00DB612A /* DischargeWeb.swift in Sources */,
+				10445C912884436E004E359B /* MyUI.swift in Sources */,
+				10A6BCC62A95F9160033DBEB /* Assessment1_5.swift in Sources */,
+				10A10D4E28B897FA00F4C64F /* VideoEditor.swift in Sources */,
+				10445C9A2884436E004E359B /* ForgetPassword.swift in Sources */,
+				10A693E02A1DE93C00023513 /* Assessment0_1.swift in Sources */,
+				10445C9B2884436E004E359B /* Home.swift in Sources */,
+				10A6BCBE2A84B5B30033DBEB /* Assessment0_3.swift in Sources */,
+				10A10D5128B8AF1100F4C64F /* EchoInput.swift in Sources */,
+				10445C972884436E004E359B /* Model.swift in Sources */,
+				10A10D4F28B897FA00F4C64F /* VideoHelper.swift in Sources */,
+				10A10D4D28B897FA00F4C64F /* UploadVideo.swift in Sources */,
+				10445C1028844129004E359B /* AppDelegate.swift in Sources */,
+				10445C932884436E004E359B /* Login.swift in Sources */,
+				10A6BCC02A84B7840033DBEB /* Assessment1_1.swift in Sources */,
+				106908AF2897A3090014C8D3 /* MySearchTextFieldItem.swift in Sources */,
+				10A10D4C28B897FA00F4C64F /* Camera.swift in Sources */,
+				10A6BCC42A95DD970033DBEB /* Assessment1_4.swift in Sources */,
+				10A25CE32A9630DA00939FD0 /* Assessment_Result.swift in Sources */,
+				10A6BCC82A96199C0033DBEB /* Assessment1_6.swift in Sources */,
+				10445C1228844129004E359B /* SceneDelegate.swift in Sources */,
+				10445C922884436E004E359B /* MyDatePicker.swift in Sources */,
+				10A6BCC22A84BA440033DBEB /* Assessment1_2.swift in Sources */,
+				10A6BCBA2A84B4570033DBEB /* Assessment_Fine.swift in Sources */,
+				1027F14C28C4FFB80030EAEB /* DischargeForm.swift in Sources */,
+				10E3031E28B8D02000F6422D /* Web.swift in Sources */,
+				10445C982884436E004E359B /* MyExtension.swift in Sources */,
+				10E3032228B900ED00F6422D /* PatientList.swift in Sources */,
+				10A693DE2A1DE81300023513 /* Assessment1_3.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10445C1E2884412C004E359B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10445C272884412C004E359B /* EasyEFTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10445C282884412C004E359B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10445C312884412C004E359B /* EasyEFUITests.swift in Sources */,
+				10445C332884412C004E359B /* EasyEFUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10445C242884412C004E359B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10445C0B28844129004E359B /* EasyEF */;
+			targetProxy = 10445C232884412C004E359B /* PBXContainerItemProxy */;
+		};
+		10445C2E2884412C004E359B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10445C0B28844129004E359B /* EasyEF */;
+			targetProxy = 10445C2D2884412C004E359B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10445C1528844129004E359B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10445C1628844129004E359B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10445C1A2884412C004E359B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10445C1B2884412C004E359B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10445C342884412C004E359B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10445C352884412C004E359B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10445C372884412C004E359B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DACFD491CD6142A85993733 /* Pods-EasyEF.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SKK864R7X8;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = EasyEF/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Easy EF";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Requires access to the camera to record a video";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Requires access to the microphone to record a video";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Requires access to the Photo Library to save a video";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Requires access to the Photo Library to select a video";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tmadigital.Easy-EF";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		10445C382884412C004E359B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 035F1BC977C406207FD77F13 /* Pods-EasyEF.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SKK864R7X8;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = EasyEF/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Easy EF";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Requires access to the camera to record a video";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Requires access to the microphone to record a video";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Requires access to the Photo Library to save a video";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Requires access to the Photo Library to select a video";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tmadigital.Easy-EF";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		10445C3A2884412C004E359B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFC529F6DC3D121CE07333A4 /* Pods-EasyEFTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72Q3XETC39;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tmadigital.EasyEFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyEF.app/EasyEF";
+			};
+			name = Debug;
+		};
+		10445C3B2884412C004E359B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADC7AC0A26C7F2D9B720D56E /* Pods-EasyEFTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72Q3XETC39;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tmadigital.EasyEFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyEF.app/EasyEF";
+			};
+			name = Release;
+		};
+		10445C3D2884412C004E359B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E82E68DB93F06CEDC1681975 /* Pods-EasyEF-EasyEFUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72Q3XETC39;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tmadigital.EasyEFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyEF;
+			};
+			name = Debug;
+		};
+		10445C3E2884412C004E359B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93EAB3D6479B0E6AC38235C6 /* Pods-EasyEF-EasyEFUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72Q3XETC39;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tmadigital.EasyEFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyEF;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10445C0728844129004E359B /* Build configuration list for PBXProject "EasyEF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10445C342884412C004E359B /* Debug */,
+				10445C352884412C004E359B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10445C362884412C004E359B /* Build configuration list for PBXNativeTarget "EasyEF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10445C372884412C004E359B /* Debug */,
+				10445C382884412C004E359B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10445C392884412C004E359B /* Build configuration list for PBXNativeTarget "EasyEFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10445C3A2884412C004E359B /* Debug */,
+				10445C3B2884412C004E359B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10445C3C2884412C004E359B /* Build configuration list for PBXNativeTarget "EasyEFUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10445C3D2884412C004E359B /* Debug */,
+				10445C3E2884412C004E359B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10445C0428844129004E359B /* Project object */;
+}
