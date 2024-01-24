@@ -178,7 +178,7 @@ class EchoInput: UIViewController, UITextFieldDelegate {
                 
                 ProgressHUD.showSucceed(json["message"].stringValue)
                 DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) { // Change `2.0` to the desired number of seconds.
-                    let vc = self.storyboard!.instantiateViewController(withIdentifier: "EchoDetail") as! EchoDetail
+                    let vc = self.storyboard!.instantiateViewController(withIdentifier: "EchoDetail_2") as! EchoDetail_2
                     vc.echoType = self.echoType
                     vc.videoID = self.videoID
                     vc.patientID = self.idField.text

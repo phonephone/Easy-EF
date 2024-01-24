@@ -267,7 +267,7 @@ extension PatientDetail: UICollectionViewDelegate {
         let cellArray = patientJSON![indexPath.item]
         
         if detailType == .echo {
-            let vc = UIStoryboard.mainStoryBoard.instantiateViewController(withIdentifier: "EchoDetail") as! EchoDetail
+            let vc = UIStoryboard.mainStoryBoard.instantiateViewController(withIdentifier: "EchoDetail_2") as! EchoDetail_2
             vc.echoType = .patient
             vc.videoID = cellArray["id_vdo"].stringValue
             vc.patientID = patientID

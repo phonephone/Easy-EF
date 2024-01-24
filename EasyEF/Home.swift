@@ -24,6 +24,7 @@ class Home: UIViewController {
     @IBOutlet weak var logoutBtn: UIButton!
     
     @IBOutlet weak var versionLabel: UILabel!
+    @IBOutlet weak var totalUserLabel: UILabel!
     
     @IBOutlet weak var easyBtn: UIButton!
     
@@ -47,8 +48,9 @@ class Home: UIViewController {
     @IBOutlet weak var easyView: UIView!
     @IBOutlet weak var dischargeView: UIView!
     @IBOutlet weak var guideLineView: UIView!
-    var easyViewHeight:CGFloat = 450//3 menu
-    var dischargeViewHeight:CGFloat = 450//3 menu
+    //var easyViewHeight:CGFloat = 450//3 menu
+    var easyViewHeight:CGFloat = 300//2 menu
+    var dischargeViewHeight:CGFloat = 330//2 menu ,450 = 3 menu
     var guideLineViewHeight:CGFloat = 330//2 menu ,570 = 4 menu
     
     let demoCollection = [
@@ -61,6 +63,8 @@ class Home: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        
+        self.navigationController?.setStatusBar(backgroundColor: .themeColor)
         
         updateLoginStatus()
     }
@@ -79,7 +83,7 @@ class Home: UIViewController {
 //        myCollectionView.dataSource = self
 //        myCollectionView.backgroundColor = .clear
         
-        versionLabel.text = "Version \(Bundle.main.appVersionLong)(\(Bundle.main.appBuild))"
+        versionLabel.text = "Version \(Bundle.main.appVersionLong)"//(\(Bundle.main.appBuild))"
         
         setupButton(button: easyBtn)
         setupButton(button: quickBtn)
@@ -116,13 +120,15 @@ class Home: UIViewController {
             loginStack.isHidden = false
             logoutBtn.isHidden = true
             patientBtn.isHidden = true
-            easyViewHeight = 330
+            totalUserLabel.isHidden = true
+            //easyViewHeight = 330
         } else {
             loadProfile()
             loginStack.isHidden = true
             logoutBtn.isHidden = false
-            patientBtn.isHidden = false
-            easyViewHeight = 450
+            patientBtn.isHidden = true//false
+            totalUserLabel.isHidden = false
+            //easyViewHeight = 330//450
         }
     }
     
@@ -140,6 +146,7 @@ class Home: UIViewController {
                 
                 self.profileJSON = json["data"]
                 self.logoutBtn.setTitle("\(self.profileJSON!["email_user"].stringValue) | logout", for: .normal)
+                self.totalUserLabel.text = "จำนวนผู้ใช้งานขณะนี้ \(self.profileJSON!["videoUpload_successAll"].stringValue) คน"
             }
         }
     }

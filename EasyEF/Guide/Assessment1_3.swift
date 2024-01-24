@@ -42,9 +42,9 @@ class Assessment1_3: UIViewController {
         super.viewDidLoad()
         print("ASSESSMENT1_3")
         
-        let color1A = UIColor.themeColor
-        let color2A = UIColor(named: "Class2A")
-        let color2B = UIColor(named: "Class2B")
+        let color1A = UIColor.class1A
+        let color2A = UIColor.class2A
+        let color2B = UIColor.class2B
         
         switch resultAll?.STEP1_LVEF {
         case .Reduced:

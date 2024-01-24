@@ -230,21 +230,21 @@ class Assessment_Web: UIViewController,WKNavigationDelegate {
                 break
             }
             
-        case .CR:
-            parameters.updateValue("carvedilol_cr", forKey: "evidence_5")
+        case .Nebivolol:
+            parameters.updateValue("nebivolol", forKey: "evidence_5")//carvedilol_cr
             switch resultAll?.STEP5_BetaBlocker?.bbQuestion1 {
             case true:
-                parameters.updateValue("y", forKey: "carvedilol_cr_yn1_5")
+                parameters.updateValue("y", forKey: "nebivolol_yn1_5")//carvedilol_cr_yn1_5
             case false:
-                parameters.updateValue("n", forKey: "carvedilol_cr_yn1_5")
+                parameters.updateValue("n", forKey: "nebivolol_yn1_5")//carvedilol_cr_yn1_5
             default :
                 break
             }
             switch resultAll?.STEP5_BetaBlocker?.bbQuestion2 {
             case true:
-                parameters.updateValue("y", forKey: "carvedilol_cr_yn2_5")
+                parameters.updateValue("y", forKey: "nebivolol_yn2_5")//carvedilol_cr_yn2_5
             case false:
-                parameters.updateValue("n", forKey: "carvedilol_cr_yn2_5")
+                parameters.updateValue("n", forKey: "nebivolol_yn2_5")//carvedilol_cr_yn2_5
             default :
                 break
             }
@@ -317,6 +317,7 @@ class Assessment_Web: UIViewController,WKNavigationDelegate {
     }
     
     @IBAction func back(_ sender: UIButton) {
-        self.navigationController!.popViewController(animated: true)
+        self.navigationController!.popToRootViewController(animated: true)
+        //self.navigationController!.popViewController(animated: true)
     }
 }

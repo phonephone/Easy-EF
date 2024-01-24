@@ -24,6 +24,8 @@ class Login: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationController?.setStatusBar(backgroundColor: .themeColor)
+        
         passShowHide.imageView?.contentMode = .scaleAspectFit
         
         setupField(emailField)

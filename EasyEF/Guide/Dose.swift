@@ -17,6 +17,8 @@ struct Med {
 
 class Dose: UIViewController, UITextFieldDelegate {
     
+    @IBOutlet weak var myScrollView: UIScrollView!
+    
     @IBOutlet weak var medStack1: UIStackView!
     @IBOutlet weak var medField1: UITextField!
     @IBOutlet weak var medDropdown1: UIButton!
@@ -34,7 +36,7 @@ class Dose: UIViewController, UITextFieldDelegate {
     var select1:Int = 0
     
     let arr = [Med(medGroup: "ACEI",
-                   medName: ["Captopril","Enalapril","Lisinopril","Ramipril"],
+                   medName: ["Captopril (ยาในบัญชียาหลักแห่งชาติ)","Enalapril (ยาในบัญชียาหลักแห่งชาติ)","Lisinopril (ยาในบัญชียาหลักแห่งชาติ)","Ramipril"],
                    medStart: ["6.25 mg t.i.d.","2.5 mg b.i.d.","2.5 mg o.d.","1.25 mg o.d."],
                    medFinal: ["50 mg t.i.d.","20 mg b.i.d.","40 mg o.d.","10 mg o.d."]),
                
@@ -49,12 +51,12 @@ class Dose: UIViewController, UITextFieldDelegate {
                    medFinal: ["200 mg b.i.d."]),
                
                Med(medGroup: "BB",
-                   medName: ["Bisoprolol","Carvedilol","Metoprolol succinate","Nebivolol"],
-                   medStart: ["1.25 mg o.d.","3.125 mg b.i.d.","12.5 mg o.d.","1.25 mg o.d."],
-                   medFinal: ["10 mg o.d.","25 mg b.i.d.","200 mg o.d.","10 mg o.d."]),
+                   medName: ["Carvedilol (ยาในบัญชียาหลักแห่งชาติ)","Bisoprolol","Metoprolol succinate","Nebivolol"],
+                   medStart: ["3.125 mg b.i.d.","1.25 mg o.d.","12.5 mg o.d.","1.25 mg o.d."],
+                   medFinal: ["25 mg b.i.d.","10 mg o.d.","200 mg o.d.","10 mg o.d."]),
                
                Med(medGroup: "MRA",
-                   medName: ["Spironolactone"],
+                   medName: ["Spironolactone (ยาในบัญชียาหลักแห่งชาติ)"],
                    medStart: ["12.5 mg o.d."],
                    medFinal: ["50 mg o.d."]),
                
@@ -77,6 +79,8 @@ class Dose: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("DOSE")
+        
+        myScrollView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 100, right: 0)
         
         setupField(medField1)
         setupPicker(medPicker1)

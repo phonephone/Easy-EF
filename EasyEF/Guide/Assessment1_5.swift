@@ -11,7 +11,7 @@ enum BetaBlocker {
     case None
     case Bisoprolol
     case Carvedilol
-    case CR
+    case Nebivolol//CR
     case Metoprolol
 }
 
@@ -53,7 +53,7 @@ class Assessment1_5: UIViewController {
     @IBOutlet weak var Metoprolol_Sub2: UIStackView!
     @IBOutlet weak var Metoprolol_Submit: UIButton!
     
-    let BBarr = ["None","Bisoprolol","Carvedilol","Carvedilol CR","Metoprolol Succinate extended release (metoprolol CR/XL)"]
+    let BBarr = ["None","Bisoprolol","Carvedilol","Nebivolol","Metoprolol Succinate extended release (metoprolol CR/XL)"]
     
     let CIarr = ["ไม่มี",
                  "ภาวะภูมิไว (hypersensitivity) ต่อปัจจัยใดก็ได้",
@@ -119,7 +119,7 @@ class Assessment1_5: UIViewController {
         }
         else if sender.tag == 4 {//CR
             CR_Main.isHidden = false
-            selected5.bbName = .CR
+            selected5.bbName = .Nebivolol
         }
         else if sender.tag == 5 {//Metoprolol
             Metoprolol_Main.isHidden = false
@@ -281,7 +281,7 @@ class Assessment1_5: UIViewController {
                     self.myScrollView.scrollToView(view: self.Carvedilol_Submit, animated: true)
                 }
                 
-            case .CR:
+            case .Nebivolol:
                 CR_Submit.isHidden = false
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
                     self.myScrollView.scrollToView(view: self.CR_Submit, animated: true)

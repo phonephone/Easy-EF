@@ -166,7 +166,7 @@ class UploadVideo: UIViewController,AVPlayerViewControllerDelegate {
                     DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) { // Change `2.0` to the desired number of seconds.
                         
                         if self.echoType == .quick {
-                            let vc = self.storyboard!.instantiateViewController(withIdentifier: "EchoDetail") as! EchoDetail
+                            let vc = self.storyboard!.instantiateViewController(withIdentifier: "EchoDetail_2") as! EchoDetail_2
                             vc.echoType = self.echoType
                             vc.videoID = json["data"]["id_vdo"].stringValue
                             vc.patientID = self.patientID

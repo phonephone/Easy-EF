@@ -48,7 +48,7 @@ class Camera: UIViewController {
         capturBtn.isHidden = false
         totalDuration = 5
         timeLabel.text = durationFormatter.string(from: TimeInterval(totalDuration))!
-        versionLabel.text = "version \(Bundle.main.appVersionLong)"//(\(Bundle.main.appBuild))"
+        //versionLabel.text = "version \(Bundle.main.appVersionLong)"//(\(Bundle.main.appBuild))"
     }
     
     override func viewDidLoad() {

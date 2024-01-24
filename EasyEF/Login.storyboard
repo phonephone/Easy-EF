@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -42,13 +42,13 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_text" translatesAutoresizingMaskIntoConstraints="NO" id="RFl-xE-63W">
-                                <rect key="frame" x="78" y="624" width="258" height="45"/>
+                                <rect key="frame" x="63.5" y="619" width="287" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="Jan-sh-T32"/>
+                                    <constraint firstAttribute="height" constant="50" id="Jan-sh-T32"/>
                                     <constraint firstAttribute="width" secondItem="RFl-xE-63W" secondAttribute="height" multiplier="195:34" id="v56-dR-zcC"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mcw-ft-iDC">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mcw-ft-iDC">
                                 <rect key="frame" x="111.5" y="679" width="191.5" height="33"/>
                                 <string key="text">Sed ut perspiciatis unde omnis
  iste natus error sit.</string>
@@ -84,7 +84,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="35n-cd-b7W">
-                                <rect key="frame" x="24" y="68" width="30" height="30"/>
+                                <rect key="frame" x="24" y="72" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="35n-cd-b7W" secondAttribute="height" multiplier="1:1" id="fpz-3i-wb4"/>
                                     <constraint firstAttribute="height" constant="30" id="n6c-pR-L7j"/>
@@ -96,13 +96,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign Up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axX-MS-fSp">
-                                <rect key="frame" x="178" y="73" width="58" height="20"/>
+                                <rect key="frame" x="178" y="77" width="58" height="20"/>
                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
                                 <color key="textColor" name="Text_Dark_Gray"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="szm-Ku-eYd">
-                                <rect key="frame" x="24" y="118" width="366" height="461.5"/>
+                                <rect key="frame" x="24" y="122" width="366" height="461.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="08X-tq-6yg">
                                         <rect key="frame" x="0.0" y="0.0" width="366" height="46"/>
@@ -484,7 +484,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jrk-wZ-F4c">
-                                <rect key="frame" x="24" y="68" width="30" height="30"/>
+                                <rect key="frame" x="24" y="72" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="AbW-62-K3b"/>
                                     <constraint firstAttribute="width" secondItem="Jrk-wZ-F4c" secondAttribute="height" multiplier="1:1" id="RR3-ga-an3"/>
@@ -496,7 +496,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0VR-0U-BcS">
-                                <rect key="frame" x="186" y="73" width="42" height="20"/>
+                                <rect key="frame" x="186" y="77" width="42" height="20"/>
                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
                                 <color key="textColor" name="Text_Dark_Gray"/>
                                 <nil key="highlightedColor"/>
@@ -728,7 +728,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QMS-Hc-UqH">
-                                <rect key="frame" x="24" y="68" width="30" height="30"/>
+                                <rect key="frame" x="24" y="72" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="QMS-Hc-UqH" secondAttribute="height" multiplier="1:1" id="6Ts-bh-Qoh"/>
                                     <constraint firstAttribute="height" constant="30" id="jb9-g0-5jB"/>
@@ -740,7 +740,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forgot Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UW1-rP-rgO">
-                                <rect key="frame" x="142.5" y="73" width="129" height="20"/>
+                                <rect key="frame" x="142.5" y="77" width="129" height="20"/>
                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
                                 <color key="textColor" name="Text_Dark_Gray"/>
                                 <nil key="highlightedColor"/>

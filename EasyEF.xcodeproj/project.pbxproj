@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		100F8B5E2B47E31800FFFFC7 /* EchoDetail_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100F8B5D2B47E31800FFFFC7 /* EchoDetail_2.swift */; };
 		1027F14C28C4FFB80030EAEB /* DischargeForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1027F14B28C4FFB80030EAEB /* DischargeForm.swift */; };
 		10445C1028844129004E359B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10445C0F28844129004E359B /* AppDelegate.swift */; };
 		10445C1228844129004E359B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10445C1128844129004E359B /* SceneDelegate.swift */; };
@@ -61,9 +62,12 @@
 		10445C9A2884436E004E359B /* ForgetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10445C8E2884436E004E359B /* ForgetPassword.swift */; };
 		10445C9B2884436E004E359B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10445C8F2884436E004E359B /* Home.swift */; };
 		104E11E92A7A2DEA004FE008 /* Dose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104E11E82A7A2DEA004FE008 /* Dose.swift */; };
+		1061C79E2B51144500448DD1 /* Treatment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1061C79D2B51144500448DD1 /* Treatment.swift */; };
 		106908AF2897A3090014C8D3 /* MySearchTextFieldItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106908AE2897A3090014C8D3 /* MySearchTextFieldItem.swift */; };
 		106ED41328CD977D00DB612A /* DischargeWeb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ED41228CD977C00DB612A /* DischargeWeb.swift */; };
 		108FAD612AAEF48300DA1E5F /* Assessment_Web.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108FAD602AAEF48300DA1E5F /* Assessment_Web.swift */; };
+		109DB22E2B5EC153002C321D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 109DB22D2B5EC153002C321D /* GoogleService-Info.plist */; };
+		109DB2312B5EC2CE002C321D /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 109DB2302B5EC2CE002C321D /* FirebaseAnalytics */; };
 		10A10D4C28B897FA00F4C64F /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A10D4828B897FA00F4C64F /* Camera.swift */; };
 		10A10D4D28B897FA00F4C64F /* UploadVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A10D4928B897FA00F4C64F /* UploadVideo.swift */; };
 		10A10D4E28B897FA00F4C64F /* VideoEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A10D4A28B897FA00F4C64F /* VideoEditor.swift */; };
@@ -113,6 +117,7 @@
 
 /* Begin PBXFileReference section */
 		035F1BC977C406207FD77F13 /* Pods-EasyEF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyEF.release.xcconfig"; path = "Target Support Files/Pods-EasyEF/Pods-EasyEF.release.xcconfig"; sourceTree = "<group>"; };
+		100F8B5D2B47E31800FFFFC7 /* EchoDetail_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchoDetail_2.swift; sourceTree = "<group>"; };
 		1027F14B28C4FFB80030EAEB /* DischargeForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DischargeForm.swift; sourceTree = "<group>"; };
 		10445C0C28844129004E359B /* EasyEF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyEF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10445C0F28844129004E359B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -170,9 +175,11 @@
 		10445C8E2884436E004E359B /* ForgetPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgetPassword.swift; sourceTree = "<group>"; };
 		10445C8F2884436E004E359B /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		104E11E82A7A2DEA004FE008 /* Dose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dose.swift; sourceTree = "<group>"; };
+		1061C79D2B51144500448DD1 /* Treatment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Treatment.swift; sourceTree = "<group>"; };
 		106908AE2897A3090014C8D3 /* MySearchTextFieldItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySearchTextFieldItem.swift; sourceTree = "<group>"; };
 		106ED41228CD977C00DB612A /* DischargeWeb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DischargeWeb.swift; sourceTree = "<group>"; };
 		108FAD602AAEF48300DA1E5F /* Assessment_Web.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assessment_Web.swift; sourceTree = "<group>"; };
+		109DB22D2B5EC153002C321D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		10A10D4828B897FA00F4C64F /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 		10A10D4928B897FA00F4C64F /* UploadVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadVideo.swift; sourceTree = "<group>"; };
 		10A10D4A28B897FA00F4C64F /* VideoEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoEditor.swift; sourceTree = "<group>"; };
@@ -214,6 +221,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				109DB2312B5EC2CE002C321D /* FirebaseAnalytics in Frameworks */,
 				F046E8BA263421941A1D79A8 /* Pods_EasyEF.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +272,7 @@
 			children = (
 				10445C0F28844129004E359B /* AppDelegate.swift */,
 				10445C1128844129004E359B /* SceneDelegate.swift */,
+				109DB22D2B5EC153002C321D /* GoogleService-Info.plist */,
 				10445C8D2884436E004E359B /* Login.storyboard */,
 				10445C882884436E004E359B /* PreLogin.swift */,
 				10445C872884436E004E359B /* SignUp.swift */,
@@ -277,6 +286,8 @@
 				10A10D4928B897FA00F4C64F /* UploadVideo.swift */,
 				10A10D5028B8AF1100F4C64F /* EchoInput.swift */,
 				10445C892884436E004E359B /* EchoDetail.swift */,
+				100F8B5D2B47E31800FFFFC7 /* EchoDetail_2.swift */,
+				1061C79D2B51144500448DD1 /* Treatment.swift */,
 				10E3031D28B8D02000F6422D /* Web.swift */,
 				10E3031F28B8FD0100F6422D /* Patient_Discharge.storyboard */,
 				10E3032128B900ED00F6422D /* PatientList.swift */,
@@ -404,8 +415,8 @@
 				10A6BCC72A96199C0033DBEB /* Assessment1_6.swift */,
 				10A25CDE2A96269000939FD0 /* Assessment1_7.swift */,
 				10A25CE02A962C6C00939FD0 /* Assessment1_8.swift */,
-				10A25CE22A9630DA00939FD0 /* Assessment_Result.swift */,
 				108FAD602AAEF48300DA1E5F /* Assessment_Web.swift */,
+				10A25CE22A9630DA00939FD0 /* Assessment_Result.swift */,
 				104E11E82A7A2DEA004FE008 /* Dose.swift */,
 			);
 			path = Guide;
@@ -452,6 +463,9 @@
 			dependencies = (
 			);
 			name = EasyEF;
+			packageProductDependencies = (
+				109DB2302B5EC2CE002C321D /* FirebaseAnalytics */,
+			);
 			productName = EasyEF;
 			productReference = 10445C0C28844129004E359B /* EasyEF.app */;
 			productType = "com.apple.product-type.application";
@@ -527,6 +541,9 @@
 				Base,
 			);
 			mainGroup = 10445C0328844129004E359B;
+			packageReferences = (
+				109DB22F2B5EC2CE002C321D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 10445C0D28844129004E359B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -560,6 +577,7 @@
 				10445C6C28844353004E359B /* Prompt-Bold.ttf in Resources */,
 				10445C6D28844353004E359B /* Prompt-SemiBold.ttf in Resources */,
 				10445C6928844353004E359B /* Prompt-ExtraBold.ttf in Resources */,
+				109DB22E2B5EC153002C321D /* GoogleService-Info.plist in Resources */,
 				10445C7328844353004E359B /* Prompt-Italic.ttf in Resources */,
 				10445C7D28844353004E359B /* LICENSE.txt in Resources */,
 				10445C6A28844353004E359B /* Prompt-Thin.ttf in Resources */,
@@ -729,6 +747,7 @@
 				10445C9B2884436E004E359B /* Home.swift in Sources */,
 				10A6BCBE2A84B5B30033DBEB /* Assessment0_3.swift in Sources */,
 				10A10D5128B8AF1100F4C64F /* EchoInput.swift in Sources */,
+				1061C79E2B51144500448DD1 /* Treatment.swift in Sources */,
 				10445C972884436E004E359B /* Model.swift in Sources */,
 				10A10D4F28B897FA00F4C64F /* VideoHelper.swift in Sources */,
 				10A10D4D28B897FA00F4C64F /* UploadVideo.swift in Sources */,
@@ -736,6 +755,7 @@
 				10445C932884436E004E359B /* Login.swift in Sources */,
 				10A6BCC02A84B7840033DBEB /* Assessment1_1.swift in Sources */,
 				106908AF2897A3090014C8D3 /* MySearchTextFieldItem.swift in Sources */,
+				100F8B5E2B47E31800FFFFC7 /* EchoDetail_2.swift in Sources */,
 				10A10D4C28B897FA00F4C64F /* Camera.swift in Sources */,
 				10A6BCC42A95DD970033DBEB /* Assessment1_4.swift in Sources */,
 				10A25CE32A9630DA00939FD0 /* Assessment_Result.swift in Sources */,
@@ -946,7 +966,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.2;
+				MARKETING_VERSION = 1.2.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tmadigital.Easy-EF";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -984,7 +1004,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.2;
+				MARKETING_VERSION = 1.2.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tmadigital.Easy-EF";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1114,6 +1134,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		109DB22F2B5EC2CE002C321D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		109DB2302B5EC2CE002C321D /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 109DB22F2B5EC2CE002C321D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 10445C0428844129004E359B /* Project object */;
 }

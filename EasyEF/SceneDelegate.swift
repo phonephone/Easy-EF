@@ -68,8 +68,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             //let vc = UIStoryboard.mainStoryBoard.instantiateViewController(withIdentifier: "EchoInput") as! EchoInput
             //vc.videoID = "292"
             
-            //let vc = UIStoryboard.mainStoryBoard.instantiateViewController(withIdentifier: "EchoDetail") as! EchoDetail
-            //vc.videoID = "1439"//OK
+//            let vc = UIStoryboard.mainStoryBoard.instantiateViewController(withIdentifier: "EchoDetail") as! EchoDetail
+//            vc.videoID = "1439"//OK
             //vc.videoID = "1444"//Error
             
             //let vc = UIStoryboard.patientStoryBoard.instantiateViewController(withIdentifier: "PatientList") as! PatientList
@@ -84,9 +84,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             //let vc = UIStoryboard.guideStoryBoard.instantiateViewController(withIdentifier: "Assessment1_4") as! Assessment1_4
             //let vc = UIStoryboard.guideStoryBoard.instantiateViewController(withIdentifier: "Assessment_Web") as! Assessment_Web
             
-            let vc = UIStoryboard.guideStoryBoard.instantiateViewController(withIdentifier: "Dose") as! Dose
+//            let vc = UIStoryboard.mainStoryBoard.instantiateViewController(withIdentifier: "EchoDetail_2") as! EchoDetail_2
+//            vc.videoID = "1439"//OK
+            
+            //let vc = UIStoryboard.guideStoryBoard.instantiateViewController(withIdentifier: "Dose") as! Dose
 
-            navigationController = UINavigationController.init(rootViewController: vc)
+            //navigationController = UINavigationController.init(rootViewController: vc)
             //***อย่าลืม
             
             navigationController.setNavigationBarHidden(true, animated:false)
