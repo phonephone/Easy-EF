@@ -21,6 +21,8 @@ class Web: UIViewController, WKNavigationDelegate {
         super.viewDidLoad()
         print("WEB")
         
+        //print(webUrlString)
+        
         headerTitle.text = titleString
         
         let url = URL(string: webUrlString!)!

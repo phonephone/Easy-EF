@@ -16,7 +16,10 @@ class Assessment0_3: UIViewController {
     
     @IBAction func submitClick(_ sender: UIButton) {
         if sender.tag == 1 {//Chronic
-            let vc = self.storyboard!.instantiateViewController(withIdentifier: "Assessment1_1") as! Assessment1_1
+//            let vc = self.storyboard!.instantiateViewController(withIdentifier: "Assessment1_1") as! Assessment1_1
+//            self.navigationController!.pushViewController(vc, animated: true)
+            
+            let vc = self.storyboard!.instantiateViewController(withIdentifier: "Assessment_All") as! Assessment_All
             self.navigationController!.pushViewController(vc, animated: true)
         }
         else if sender.tag == 2 {//Acute

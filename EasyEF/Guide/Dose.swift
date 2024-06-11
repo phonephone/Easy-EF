@@ -17,7 +17,12 @@ struct Med {
 
 class Dose: UIViewController, UITextFieldDelegate {
     
+    var imageUrlString:String?
+    
     @IBOutlet weak var myScrollView: UIScrollView!
+    
+    @IBOutlet weak var doseImage: UIImageView!
+    @IBOutlet weak var doseImageHeight: NSLayoutConstraint!
     
     @IBOutlet weak var medStack1: UIStackView!
     @IBOutlet weak var medField1: UITextField!
@@ -81,6 +86,19 @@ class Dose: UIViewController, UITextFieldDelegate {
         print("DOSE")
         
         myScrollView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 100, right: 0)
+        
+        
+        doseImage.sd_setImage(with: URL(string:imageUrlString ?? "https://echo.tmadigital.com/img/app/dose_profile.png"),
+                               placeholderImage: nil,
+                               completed: { (image, error, cacheType, url) in
+            guard image != nil else {
+                return
+            }
+            let ratio = image!.size.width / image!.size.height
+            let newHeight = self.myScrollView.frame.width / ratio
+            print(newHeight)
+            self.doseImageHeight.constant = newHeight
+        })
         
         setupField(medField1)
         setupPicker(medPicker1)

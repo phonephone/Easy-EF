@@ -88,6 +88,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 //            vc.videoID = "1439"//OK
             
             //let vc = UIStoryboard.guideStoryBoard.instantiateViewController(withIdentifier: "Dose") as! Dose
+            
+            //let vc = UIStoryboard.guideStoryBoard.instantiateViewController(withIdentifier: "Assessment_All") as! Assessment_All
 
             //navigationController = UINavigationController.init(rootViewController: vc)
             //***อย่าลืม

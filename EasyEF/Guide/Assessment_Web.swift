@@ -70,11 +70,6 @@ class Assessment_Web: UIViewController,WKNavigationDelegate {
 //        }
 //    }
     
-    func loadWeb(webUrlString:String?) {
-        let url = URL(string: webUrlString!)!
-        myWebView.load(URLRequest(url: url))
-    }
-    
     func loadResult() {
         var parameters:Parameters = ["id_user":SceneDelegate.GlobalVariables.userID]
         
@@ -308,6 +303,11 @@ class Assessment_Web: UIViewController,WKNavigationDelegate {
         }
     }
     
+    func loadWeb(webUrlString:String?) {
+        let url = URL(string: webUrlString!)!
+        myWebView.load(URLRequest(url: url))
+    }
+    
     func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
         loadingHUD()
     }
@@ -317,7 +317,10 @@ class Assessment_Web: UIViewController,WKNavigationDelegate {
     }
     
     @IBAction func back(_ sender: UIButton) {
+        self.navigationController!.popViewController(animated: true)
+    }
+    
+    @IBAction func quit(_ sender: UIButton) {
         self.navigationController!.popToRootViewController(animated: true)
-        //self.navigationController!.popViewController(animated: true)
     }
 }

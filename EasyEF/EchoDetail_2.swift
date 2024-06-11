@@ -22,6 +22,9 @@ class EchoDetail_2: UIViewController,UITextViewDelegate {
     
     var resultEF:LVEF?
     
+    var errorReload:Bool = true
+    var noOfReload:Int = 2
+    
     @IBOutlet weak var captureView: UIView!
     
     @IBOutlet weak var needleImageView: UIImageView!
@@ -56,6 +59,11 @@ class EchoDetail_2: UIViewController,UITextViewDelegate {
     var normalValue:Float = 0
     var moderateValue:Float = 0
     var severeValue:Float = 0
+    
+    var normalURLString:String?
+    var moderateURLString:String?
+    var severeURLString:String?
+    var resultURLString:String?
     
     @IBOutlet weak var shareBtn: UIButton!
     @IBOutlet weak var shareSubmitBtn: UIButton!
@@ -93,7 +101,10 @@ class EchoDetail_2: UIViewController,UITextViewDelegate {
         refStack.isHidden = false
         remarkStack.isHidden = true
         
-        treatmentBtn.isHidden = false
+        refTitle.isHidden = true
+        refButton.isHidden = true
+        refLabel.isHidden = true
+        treatmentBtn.isHidden = true
         shareSubmitBtn.isHidden = true
         
         loadDetail()
@@ -114,17 +125,19 @@ class EchoDetail_2: UIViewController,UITextViewDelegate {
                 
                 let status = json["data"]["status"].stringValue
                 if status == "OK" {
-                    self.normalValue = json["data"]["estimated_hf_output_normal"].floatValue
-                    self.moderateValue = json["data"]["estimated_hf_output_moderate"].floatValue
+                    self.errorReload = false
+                    
                     self.severeValue = json["data"]["estimated_hf_output_severe"].floatValue
+                    self.moderateValue = json["data"]["estimated_hf_output_moderate"].floatValue
+                    self.normalValue = json["data"]["estimated_hf_output_normal"].floatValue
+                    
+                    let imageURL = json["data"]["imgUrl"]
+                    self.severeURLString = imageURL["reduce"].stringValue
+                    self.moderateURLString = imageURL["mildly"].stringValue
+                    self.normalURLString = imageURL["preserve"].stringValue
                     
                     self.refURL = json["data"]["refUrl"].stringValue
-                    if self.refURL == "" {
-                        self.refTitle.isHidden = true
-                        self.refButton.isHidden = true
-                        self.refLabel.isHidden = true
-                    }
-                    else {
+                    if self.refURL != "" {
                         let attributeString = NSMutableAttributedString(
                             string: self.refURL ?? "",
                             attributes: self.refAttributes
@@ -143,6 +156,19 @@ class EchoDetail_2: UIViewController,UITextViewDelegate {
                     self.guageLabel.text = "Error"
                     self.guageLabel.textColor = .textDarkGray
                     self.detailLabel.text = status
+                    
+                    self.refTitle.isHidden = true
+                    self.refButton.isHidden = true
+                    self.refLabel.isHidden = true
+                    self.treatmentBtn.isHidden = true
+                    
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 10.0) {
+                        if self.errorReload && self.noOfReload > 0 {
+                            self.noOfReload-=1
+                            self.loadDetail()
+                        }
+                    }
+                    
                     ProgressHUD.imageError = .remove
                     ProgressHUD.showError(status, interaction: false)
                 }
@@ -171,6 +197,8 @@ class EchoDetail_2: UIViewController,UITextViewDelegate {
             detailLabel.text = "หมายถึง ประสิทธิภาพการทำงานของหัวใจห้องล่างซ้าย น้อยกว่า 40%\nค่านี้ได้มาการการประมวลผลโดย AI จากฐานข้อมูลของ EasyEF"
             confidentLabel.text = "มีความเชื่อมั่นว่าถูกต้อง \(severeValue)%\nมีโอกาสเป็น Good LV \(normalValue)% และ Fair LV \(moderateValue)%"
             
+            resultURLString = severeURLString
+            
         case 1://Moderate
             resultEF = .Mildly
             
@@ -183,6 +211,8 @@ class EchoDetail_2: UIViewController,UITextViewDelegate {
             detailLabel.text = "หมายถึง ประสิทธิภาพการทำงานของหัวใจห้องล่างซ้าย เท่ากับ 40-49%\nค่านี้ได้มาการการประมวลผลโดย AI จากฐานข้อมูลของ EasyEF"
             confidentLabel.text = "มีความเชื่อมั่นว่าถูกต้อง \(moderateValue)%\nมีโอกาสเป็น Good LV \(normalValue)% และ Poor LV \(severeValue)%"
             
+            resultURLString = moderateURLString
+            
         case 2://Normal
             resultEF = .Preserved
             
@@ -194,6 +224,8 @@ class EchoDetail_2: UIViewController,UITextViewDelegate {
             
             detailLabel.text = "หมายถึง ประสิทธิภาพการทำงานของหัวใจห้องล่างซ้าย มากกว่า 50%\nค่านี้ได้มาการการประมวลผลโดย AI จากฐานข้อมูลของ EasyEF"
             confidentLabel.text = "มีความเชื่อมั่นว่าถูกต้อง \(normalValue)%\nมีโอกาสเป็น Fair LV \(moderateValue)% และ Poor LV \(severeValue)%"
+            
+            resultURLString = normalURLString
             
         default:
             break
@@ -275,6 +307,7 @@ class EchoDetail_2: UIViewController,UITextViewDelegate {
         
         let vc = UIStoryboard.mainStoryBoard.instantiateViewController(withIdentifier: "Treatment") as! Treatment
         vc.resultEF = resultEF
+        vc.imageUrlString = resultURLString
         self.navigationController!.pushViewController(vc, animated: true)
     }
     

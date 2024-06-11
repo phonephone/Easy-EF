@@ -32,6 +32,7 @@ extension UIColor {
     static let buttonRed = UIColor(named: "Btn_Red")!
     static let buttonGreen = UIColor(named: "Btn_Green")!
     static let buttonDisable = UIColor(named: "Btn_Disable")!
+    static let buttonUnselect = UIColor(named: "Btn_Unselect")!
     static let class1A = UIColor(named: "Class1A")!
     static let class2A = UIColor(named: "Class2A")!
     static let class2B = UIColor(named: "Class2B")!
@@ -390,6 +391,12 @@ extension UIButton {
     func enableBtn() {
         isEnabled = true
         backgroundColor = UIColor.themeColor
+        setTitleColor(.white, for: .normal)
+    }
+    
+    func enableBtnRed() {
+        isEnabled = true
+        backgroundColor = UIColor.themeColor2
         setTitleColor(.white, for: .normal)
     }
 }

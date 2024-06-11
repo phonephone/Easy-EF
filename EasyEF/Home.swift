@@ -43,6 +43,7 @@ class Home: UIViewController {
     
     @IBOutlet weak var assessmentBtn: UIButton!
     @IBOutlet weak var doseBtn: UIButton!
+    @IBOutlet weak var downloadBtn: UIButton!
     
     var transparentView = UIView()
     @IBOutlet weak var easyView: UIView!
@@ -51,7 +52,7 @@ class Home: UIViewController {
     //var easyViewHeight:CGFloat = 450//3 menu
     var easyViewHeight:CGFloat = 300//2 menu
     var dischargeViewHeight:CGFloat = 330//2 menu ,450 = 3 menu
-    var guideLineViewHeight:CGFloat = 330//2 menu ,570 = 4 menu
+    var guideLineViewHeight:CGFloat = 450//3 menu ,570 = 4 menu
     
     let demoCollection = [
         CollectionModel(image: UIImage(named: "home_1")!, title: ""),
@@ -101,6 +102,7 @@ class Home: UIViewController {
         
         assessmentBtn.imageView?.contentMode = .scaleAspectFit
         doseBtn.imageView?.contentMode = .scaleAspectFit
+        downloadBtn.imageView?.contentMode = .scaleAspectFit
         
         loadDischarge()
         //loadGuide()
@@ -266,6 +268,15 @@ class Home: UIViewController {
     
     @IBAction func doseClick(_ sender: UIButton) {
         let vc = UIStoryboard.guideStoryBoard.instantiateViewController(withIdentifier: "Dose") as! Dose
+        vc.imageUrlString = profileJSON?["imgUrl"].stringValue
+        self.navigationController!.pushViewController(vc, animated: true)
+        onClickTransParentView()
+    }
+    
+    @IBAction func downloadlick(_ sender: UIButton) {
+        let vc = UIStoryboard.mainStoryBoard.instantiateViewController(withIdentifier: "Web") as! Web
+        vc.titleString = sender.titleLabel?.text
+        vc.webUrlString = "https://echo.tmadigital.com/Download"
         self.navigationController!.pushViewController(vc, animated: true)
         onClickTransParentView()
     }
@@ -377,12 +388,14 @@ extension Home {
             showBottomSheet(showView: easyView, viewHeight: easyViewHeight)
         case .notDetermined:
             AVCaptureDevice.requestAccess(for: .video) { success in
-                if success {
-                    print("Permission granted, proceed")
-                    self.showBottomSheet(showView: self.easyView, viewHeight: self.easyViewHeight)
-                } else {
-                    print("Permission denied")
-                    self.presentCameraSettings()
+                DispatchQueue.main.sync {
+                    if success {
+                        print("Permission granted, proceed")
+                        self.showBottomSheet(showView: self.easyView, viewHeight: self.easyViewHeight)
+                    } else {
+                        print("Permission denied")
+                        self.presentCameraSettings()
+                    }
                 }
             }
         default:

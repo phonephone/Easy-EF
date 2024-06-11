@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		100A44942BBD25ED00C1DD0D /* Assessment_All.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100A44932BBD25ED00C1DD0D /* Assessment_All.swift */; };
 		100F8B5E2B47E31800FFFFC7 /* EchoDetail_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100F8B5D2B47E31800FFFFC7 /* EchoDetail_2.swift */; };
 		1027F14C28C4FFB80030EAEB /* DischargeForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1027F14B28C4FFB80030EAEB /* DischargeForm.swift */; };
 		10445C1028844129004E359B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10445C0F28844129004E359B /* AppDelegate.swift */; };
@@ -65,6 +66,8 @@
 		1061C79E2B51144500448DD1 /* Treatment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1061C79D2B51144500448DD1 /* Treatment.swift */; };
 		106908AF2897A3090014C8D3 /* MySearchTextFieldItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106908AE2897A3090014C8D3 /* MySearchTextFieldItem.swift */; };
 		106ED41328CD977D00DB612A /* DischargeWeb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ED41228CD977C00DB612A /* DischargeWeb.swift */; };
+		107864EC2BFB357200B995E6 /* Guide_Old.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 107864EB2BFB357200B995E6 /* Guide_Old.storyboard */; };
+		107864F02BFB363900B995E6 /* Assessment_All_Old.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107864EF2BFB363900B995E6 /* Assessment_All_Old.swift */; };
 		108FAD612AAEF48300DA1E5F /* Assessment_Web.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108FAD602AAEF48300DA1E5F /* Assessment_Web.swift */; };
 		109DB22E2B5EC153002C321D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 109DB22D2B5EC153002C321D /* GoogleService-Info.plist */; };
 		109DB2312B5EC2CE002C321D /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 109DB2302B5EC2CE002C321D /* FirebaseAnalytics */; };
@@ -93,6 +96,7 @@
 		10E3032228B900ED00F6422D /* PatientList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E3032128B900ED00F6422D /* PatientList.swift */; };
 		10E3032428B909F400F6422D /* PatientDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E3032328B909F400F6422D /* PatientDetail.swift */; };
 		10E3032628B9120900F6422D /* DischargeInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E3032528B9120900F6422D /* DischargeInput.swift */; };
+		10ED1AC52BFEF2AC0014821E /* Assessment_Web_Old.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED1AC42BFEF2AB0014821E /* Assessment_Web_Old.swift */; };
 		29172533B871DB01EF0E9EE8 /* Pods_EasyEFTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7103598DC66A1DDE05DD4F5 /* Pods_EasyEFTests.framework */; };
 		A40206C2F3BAF9B69E065527 /* Pods_EasyEF_EasyEFUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17FDA4385F779014434B600 /* Pods_EasyEF_EasyEFUITests.framework */; };
 		F046E8BA263421941A1D79A8 /* Pods_EasyEF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3397FDD4E85933707675F819 /* Pods_EasyEF.framework */; };
@@ -117,6 +121,7 @@
 
 /* Begin PBXFileReference section */
 		035F1BC977C406207FD77F13 /* Pods-EasyEF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyEF.release.xcconfig"; path = "Target Support Files/Pods-EasyEF/Pods-EasyEF.release.xcconfig"; sourceTree = "<group>"; };
+		100A44932BBD25ED00C1DD0D /* Assessment_All.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assessment_All.swift; sourceTree = "<group>"; };
 		100F8B5D2B47E31800FFFFC7 /* EchoDetail_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchoDetail_2.swift; sourceTree = "<group>"; };
 		1027F14B28C4FFB80030EAEB /* DischargeForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DischargeForm.swift; sourceTree = "<group>"; };
 		10445C0C28844129004E359B /* EasyEF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyEF.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -178,6 +183,8 @@
 		1061C79D2B51144500448DD1 /* Treatment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Treatment.swift; sourceTree = "<group>"; };
 		106908AE2897A3090014C8D3 /* MySearchTextFieldItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySearchTextFieldItem.swift; sourceTree = "<group>"; };
 		106ED41228CD977C00DB612A /* DischargeWeb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DischargeWeb.swift; sourceTree = "<group>"; };
+		107864EB2BFB357200B995E6 /* Guide_Old.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Guide_Old.storyboard; sourceTree = "<group>"; };
+		107864EF2BFB363900B995E6 /* Assessment_All_Old.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assessment_All_Old.swift; sourceTree = "<group>"; };
 		108FAD602AAEF48300DA1E5F /* Assessment_Web.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assessment_Web.swift; sourceTree = "<group>"; };
 		109DB22D2B5EC153002C321D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		10A10D4828B897FA00F4C64F /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
@@ -206,6 +213,7 @@
 		10E3032128B900ED00F6422D /* PatientList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientList.swift; sourceTree = "<group>"; };
 		10E3032328B909F400F6422D /* PatientDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientDetail.swift; sourceTree = "<group>"; };
 		10E3032528B9120900F6422D /* DischargeInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DischargeInput.swift; sourceTree = "<group>"; };
+		10ED1AC42BFEF2AB0014821E /* Assessment_Web_Old.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assessment_Web_Old.swift; sourceTree = "<group>"; };
 		3397FDD4E85933707675F819 /* Pods_EasyEF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyEF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DACFD491CD6142A85993733 /* Pods-EasyEF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyEF.debug.xcconfig"; path = "Target Support Files/Pods-EasyEF/Pods-EasyEF.debug.xcconfig"; sourceTree = "<group>"; };
 		93EAB3D6479B0E6AC38235C6 /* Pods-EasyEF-EasyEFUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyEF-EasyEFUITests.release.xcconfig"; path = "Target Support Files/Pods-EasyEF-EasyEFUITests/Pods-EasyEF-EasyEFUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -399,14 +407,12 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		10A693DA2A1DE78000023513 /* Guide */ = {
+		107864EA2BFB30B800B995E6 /* OldVersion */ = {
 			isa = PBXGroup;
 			children = (
-				10A693D82A1DD4B400023513 /* Guide.storyboard */,
-				10A6BCB92A84B4570033DBEB /* Assessment_Fine.swift */,
-				10A693DF2A1DE93C00023513 /* Assessment0_1.swift */,
-				10A6BCBB2A84B56A0033DBEB /* Assessment0_2.swift */,
-				10A6BCBD2A84B5B30033DBEB /* Assessment0_3.swift */,
+				107864EB2BFB357200B995E6 /* Guide_Old.storyboard */,
+				107864EF2BFB363900B995E6 /* Assessment_All_Old.swift */,
+				10ED1AC42BFEF2AB0014821E /* Assessment_Web_Old.swift */,
 				10A6BCBF2A84B7840033DBEB /* Assessment1_1.swift */,
 				10A6BCC12A84BA440033DBEB /* Assessment1_2.swift */,
 				10A693DD2A1DE81300023513 /* Assessment1_3.swift */,
@@ -415,9 +421,23 @@
 				10A6BCC72A96199C0033DBEB /* Assessment1_6.swift */,
 				10A25CDE2A96269000939FD0 /* Assessment1_7.swift */,
 				10A25CE02A962C6C00939FD0 /* Assessment1_8.swift */,
-				108FAD602AAEF48300DA1E5F /* Assessment_Web.swift */,
 				10A25CE22A9630DA00939FD0 /* Assessment_Result.swift */,
+			);
+			path = OldVersion;
+			sourceTree = "<group>";
+		};
+		10A693DA2A1DE78000023513 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				10A693D82A1DD4B400023513 /* Guide.storyboard */,
+				10A6BCB92A84B4570033DBEB /* Assessment_Fine.swift */,
+				10A693DF2A1DE93C00023513 /* Assessment0_1.swift */,
+				10A6BCBB2A84B56A0033DBEB /* Assessment0_2.swift */,
+				10A6BCBD2A84B5B30033DBEB /* Assessment0_3.swift */,
+				100A44932BBD25ED00C1DD0D /* Assessment_All.swift */,
+				108FAD602AAEF48300DA1E5F /* Assessment_Web.swift */,
 				104E11E82A7A2DEA004FE008 /* Dose.swift */,
+				107864EA2BFB30B800B995E6 /* OldVersion */,
 			);
 			path = Guide;
 			sourceTree = "<group>";
@@ -565,6 +585,7 @@
 				10445C8028844353004E359B /* Roboto-Thin.ttf in Resources */,
 				10445C7828844353004E359B /* Roboto-MediumItalic.ttf in Resources */,
 				10445C7728844353004E359B /* Roboto-Regular.ttf in Resources */,
+				107864EC2BFB357200B995E6 /* Guide_Old.storyboard in Resources */,
 				10445C6B28844353004E359B /* Prompt-LightItalic.ttf in Resources */,
 				10445C6828844353004E359B /* Prompt-Light.ttf in Resources */,
 				10445C6228844353004E359B /* Prompt-ThinItalic.ttf in Resources */,
@@ -733,6 +754,7 @@
 				10E3032628B9120900F6422D /* DischargeInput.swift in Sources */,
 				10445C942884436E004E359B /* SignUp.swift in Sources */,
 				10445C952884436E004E359B /* PreLogin.swift in Sources */,
+				10ED1AC52BFEF2AC0014821E /* Assessment_Web_Old.swift in Sources */,
 				10445C902884436E004E359B /* MyCell.swift in Sources */,
 				10A25CDF2A96269000939FD0 /* Assessment1_7.swift in Sources */,
 				10445C962884436E004E359B /* EchoDetail.swift in Sources */,
@@ -758,9 +780,11 @@
 				100F8B5E2B47E31800FFFFC7 /* EchoDetail_2.swift in Sources */,
 				10A10D4C28B897FA00F4C64F /* Camera.swift in Sources */,
 				10A6BCC42A95DD970033DBEB /* Assessment1_4.swift in Sources */,
+				107864F02BFB363900B995E6 /* Assessment_All_Old.swift in Sources */,
 				10A25CE32A9630DA00939FD0 /* Assessment_Result.swift in Sources */,
 				10A6BCC82A96199C0033DBEB /* Assessment1_6.swift in Sources */,
 				10445C1228844129004E359B /* SceneDelegate.swift in Sources */,
+				100A44942BBD25ED00C1DD0D /* Assessment_All.swift in Sources */,
 				10445C922884436E004E359B /* MyDatePicker.swift in Sources */,
 				10A6BCC22A84BA440033DBEB /* Assessment1_2.swift in Sources */,
 				10A6BCBA2A84B4570033DBEB /* Assessment_Fine.swift in Sources */,
@@ -966,7 +990,46 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.4;
+				MARKETING_VERSION = 1.2.6;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"swiftCoreGraphics\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CameraKit_iOS\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"IQKeyboardManagerSwift\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"ProgressHUD\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SearchTextField\"",
+					"-framework",
+					"\"SideMenuSwift\"",
+					"-framework",
+					"\"SwiftAlertView\"",
+					"-framework",
+					"\"SwiftEntryKit\"",
+					"-framework",
+					"\"SwiftGifOrigin\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"UIKit\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tmadigital.Easy-EF";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1004,7 +1067,46 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.4;
+				MARKETING_VERSION = 1.2.6;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"swiftCoreGraphics\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CameraKit_iOS\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"IQKeyboardManagerSwift\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"ProgressHUD\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SearchTextField\"",
+					"-framework",
+					"\"SideMenuSwift\"",
+					"-framework",
+					"\"SwiftAlertView\"",
+					"-framework",
+					"\"SwiftEntryKit\"",
+					"-framework",
+					"\"SwiftGifOrigin\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"UIKit\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tmadigital.Easy-EF";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
