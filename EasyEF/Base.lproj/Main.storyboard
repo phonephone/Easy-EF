@@ -587,10 +587,10 @@ Cg
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="jcy-sV-JxD">
-                            <rect key="frame" x="20" y="70" width="374" height="190"/>
+                            <rect key="frame" x="20" y="70" width="374" height="220"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="jEu-aU-lp2" customClass="MyButton" customModule="EasyEF" customModuleProvider="target">
-                                    <rect key="frame" x="0.0" y="0.0" width="374" height="85"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="374" height="100"/>
                                     <color key="backgroundColor" name="Main_Theme_1"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="100" id="F6C-2l-jAv"/>
@@ -609,7 +609,7 @@ Cg
                                     </connections>
                                 </button>
                                 <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="tti-VK-zZq" customClass="MyButton" customModule="EasyEF" customModuleProvider="target">
-                                    <rect key="frame" x="0.0" y="105" width="374" height="85"/>
+                                    <rect key="frame" x="0.0" y="120" width="374" height="100"/>
                                     <color key="backgroundColor" name="Main_Theme_1"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="100" id="ySY-Es-v8R"/>
@@ -628,7 +628,7 @@ Cg
                                     </connections>
                                 </button>
                                 <button hidden="YES" opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="rbF-Nl-KMR" customClass="MyButton" customModule="EasyEF" customModuleProvider="target">
-                                    <rect key="frame" x="0.0" y="190" width="374" height="100"/>
+                                    <rect key="frame" x="0.0" y="220" width="374" height="100"/>
                                     <color key="backgroundColor" name="Main_Theme_1"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="100" id="HXo-se-1gR"/>
@@ -1657,7 +1657,7 @@ Cg
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ผลการวิเคราะห์" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rOq-di-2KF">
-                                <rect key="frame" x="134" y="79" width="107" height="20"/>
+                                <rect key="frame" x="133.66666666666666" y="76" width="107.66666666666666" height="26"/>
                                 <fontDescription key="fontDescription" name="Prompt-SemiBold" family="Prompt" pointSize="17"/>
                                 <color key="textColor" name="MOPH"/>
                                 <nil key="highlightedColor"/>
@@ -1684,13 +1684,13 @@ Cg
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="40" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xy1-oa-wni">
-                                                        <rect key="frame" x="23.999999999999996" y="0.3333333333333286" width="35.666666666666657" height="37.333333333333336"/>
+                                                        <rect key="frame" x="21" y="-5.3333333333333286" width="42" height="48.666666666666664"/>
                                                         <fontDescription key="fontDescription" name="Prompt-Bold" family="Prompt" pointSize="32"/>
                                                         <color key="textColor" red="0.92549020049999997" green="0.62352943419999995" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cxc-sm-p7e">
-                                                        <rect key="frame" x="275.33333333333331" y="0.3333333333333286" width="35.666666666666686" height="37.333333333333336"/>
+                                                        <rect key="frame" x="272.66666666666669" y="-5.3333333333333286" width="41" height="48.666666666666664"/>
                                                         <fontDescription key="fontDescription" name="Prompt-Bold" family="Prompt" pointSize="32"/>
                                                         <color key="textColor" red="0.37647059560000001" green="0.63921570780000003" blue="0.32549020649999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <nil key="highlightedColor"/>
@@ -1712,25 +1712,25 @@ Cg
                                                 </constraints>
                                             </view>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="auJ-fi-WBP">
-                                                <rect key="frame" x="0.0" y="156.66666666666669" width="335" height="152"/>
+                                                <rect key="frame" x="0.0" y="156.66666666666669" width="335" height="191.66666666666669"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8f0-Os-aDj">
-                                                        <rect key="frame" x="0.0" y="0.0" width="335" height="71.333333333333329"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="335" height="92.666666666666671"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4uw-Wx-ik9">
-                                                                <rect key="frame" x="0.0" y="0.0" width="335" height="35"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="335" height="45.666666666666664"/>
                                                                 <fontDescription key="fontDescription" name="Prompt-Bold" family="Prompt" pointSize="30"/>
                                                                 <color key="textColor" name="Text_Gray_2"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ค่าความมั่นใจ (Confidence)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zGo-GJ-DBe">
-                                                                <rect key="frame" x="0.0" y="35" width="335" height="21"/>
+                                                                <rect key="frame" x="0.0" y="45.666666666666629" width="335" height="27.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Prompt-Bold" family="Prompt" pointSize="18"/>
                                                                 <color key="textColor" name="Main_Theme_1"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cYd-yJ-yqo">
-                                                                <rect key="frame" x="0.0" y="56" width="335" height="15.333333333333329"/>
+                                                                <rect key="frame" x="0.0" y="73" width="335" height="19.666666666666671"/>
                                                                 <fontDescription key="fontDescription" name="Prompt-Bold" family="Prompt" pointSize="13"/>
                                                                 <color key="textColor" name="Main_Theme_1"/>
                                                                 <nil key="highlightedColor"/>
@@ -1738,16 +1738,16 @@ Cg
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ZpP-Rr-ttN">
-                                                        <rect key="frame" x="0.0" y="76.333333333333314" width="335" height="42.666666666666657"/>
+                                                        <rect key="frame" x="0.0" y="97.666666666666629" width="335" height="52.666666666666657"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p32-GU-6GD">
-                                                                <rect key="frame" x="0.0" y="0.0" width="335" height="16.333333333333332"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="335" height="21.333333333333332"/>
                                                                 <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="14"/>
                                                                 <color key="textColor" name="Text_Gray_1"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VNb-yZ-95I">
-                                                                <rect key="frame" x="0.0" y="26.333333333333314" width="335" height="16.333333333333329"/>
+                                                                <rect key="frame" x="0.0" y="31.333333333333371" width="335" height="21.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Prompt-Regular" family="Prompt" pointSize="14"/>
                                                                 <color key="textColor" name="Text_Gray_1"/>
                                                                 <nil key="highlightedColor"/>
@@ -1755,7 +1755,7 @@ Cg
                                                         </subviews>
                                                     </stackView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*ค่า EF ที่ได้เป็นค่าสำหรับการคัดกรอง ควรให้แพทย์ใช้ ดุลยพินิจในการส่งต่อไปทำ full Echocardiography ตามมาตรฐานอีกครั้ง" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I70-2H-fp8">
-                                                        <rect key="frame" x="0.0" y="124" width="335" height="28"/>
+                                                        <rect key="frame" x="0.0" y="155.33333333333331" width="335" height="36.333333333333343"/>
                                                         <fontDescription key="fontDescription" name="Prompt-Italic" family="Prompt" pointSize="12"/>
                                                         <color key="textColor" name="Text_Gray_1"/>
                                                         <nil key="highlightedColor"/>
@@ -1763,7 +1763,7 @@ Cg
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="-5" translatesAutoresizingMaskIntoConstraints="NO" id="iIu-uE-a79">
-                                                <rect key="frame" x="0.0" y="313.66666666666669" width="335" height="179.66666666666669"/>
+                                                <rect key="frame" x="0.0" y="353.33333333333331" width="335" height="135"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pvr-ln-Arr">
                                                         <rect key="frame" x="0.0" y="0.0" width="335" height="50"/>
@@ -1773,13 +1773,13 @@ Cg
                                                         </constraints>
                                                     </view>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="*Reference" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BN5-YP-MkQ">
-                                                        <rect key="frame" x="0.0" y="45" width="335" height="14"/>
+                                                        <rect key="frame" x="0.0" y="45.000000000000057" width="335" height="18.333333333333329"/>
                                                         <fontDescription key="fontDescription" name="Prompt-SemiBold" family="Prompt" pointSize="12"/>
                                                         <color key="textColor" name="Text_Gray_1"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXw-Dc-HUE">
-                                                        <rect key="frame" x="0.0" y="54.000000000000007" width="335" height="116.66666666666669"/>
+                                                        <rect key="frame" x="0.0" y="58.333333333333314" width="335" height="63.333333333333343"/>
                                                         <fontDescription key="fontDescription" name="Prompt-SemiBold" family="Prompt" pointSize="12"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="reference Button">
@@ -1790,7 +1790,7 @@ Cg
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="สามารถคัดกรองค่า LVEF ถูกต้องประมาณ 96%" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DxS-t6-GSt">
-                                                        <rect key="frame" x="0.0" y="165.66666666666669" width="335" height="14"/>
+                                                        <rect key="frame" x="0.0" y="116.66666666666669" width="335" height="18.333333333333343"/>
                                                         <fontDescription key="fontDescription" name="Prompt-SemiBold" family="Prompt" pointSize="12"/>
                                                         <color key="textColor" name="Text_Gray_1"/>
                                                         <nil key="highlightedColor"/>
@@ -1798,7 +1798,7 @@ Cg
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="cfr-fB-rQf">
-                                                <rect key="frame" x="0.0" y="498.33333333333343" width="335" height="188.66666666666669"/>
+                                                <rect key="frame" x="0.0" y="493.33333333333343" width="335" height="193.66666666666669"/>
                                                 <subviews>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" text="Note" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="G6q-Bv-zuw" customClass="MyTextView" customModule="EasyEF" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="335" height="172.33333333333334"/>
@@ -1822,7 +1822,7 @@ Cg
                                                         </userDefinedRuntimeAttributes>
                                                     </textView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Date :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tFZ-eu-t8y">
-                                                        <rect key="frame" x="0.0" y="172.33333333333326" width="335" height="16.333333333333343"/>
+                                                        <rect key="frame" x="0.0" y="172.33333333333326" width="335" height="21.333333333333343"/>
                                                         <fontDescription key="fontDescription" name="Prompt-Italic" family="Prompt" pointSize="14"/>
                                                         <color key="textColor" name="Text_Gray"/>
                                                         <nil key="highlightedColor"/>
@@ -2094,40 +2094,40 @@ Cg
             <size key="intrinsicContentSize" width="44" height="29"/>
         </designable>
         <designable name="739-5I-IvS">
-            <size key="intrinsicContentSize" width="101" height="36"/>
+            <size key="intrinsicContentSize" width="112" height="43"/>
         </designable>
         <designable name="85Q-f2-YLy">
             <size key="intrinsicContentSize" width="45" height="29"/>
         </designable>
         <designable name="AP3-VK-Fdx">
-            <size key="intrinsicContentSize" width="101" height="36"/>
+            <size key="intrinsicContentSize" width="111" height="43"/>
         </designable>
         <designable name="Bh5-vA-jIg">
-            <size key="intrinsicContentSize" width="376" height="165"/>
+            <size key="intrinsicContentSize" width="378" height="165"/>
         </designable>
         <designable name="Cr8-oR-599">
-            <size key="intrinsicContentSize" width="101" height="36"/>
+            <size key="intrinsicContentSize" width="111" height="43"/>
         </designable>
         <designable name="FTc-qa-NAc">
-            <size key="intrinsicContentSize" width="80" height="29"/>
+            <size key="intrinsicContentSize" width="79" height="29"/>
         </designable>
         <designable name="KBR-m8-LWQ">
-            <size key="intrinsicContentSize" width="319" height="247"/>
+            <size key="intrinsicContentSize" width="328" height="247"/>
         </designable>
         <designable name="Kuc-lh-Gf3">
             <size key="intrinsicContentSize" width="343" height="192"/>
         </designable>
         <designable name="LBR-2k-qEd">
-            <size key="intrinsicContentSize" width="256" height="123"/>
+            <size key="intrinsicContentSize" width="264" height="123"/>
         </designable>
         <designable name="LLm-MW-EYs">
-            <size key="intrinsicContentSize" width="256" height="123"/>
+            <size key="intrinsicContentSize" width="268" height="123"/>
         </designable>
         <designable name="Ovj-4k-452">
             <size key="intrinsicContentSize" width="45" height="29"/>
         </designable>
         <designable name="Shu-ZH-H75">
-            <size key="intrinsicContentSize" width="101" height="36"/>
+            <size key="intrinsicContentSize" width="108" height="43"/>
         </designable>
         <designable name="VEH-AL-OwS">
             <size key="intrinsicContentSize" width="121" height="29"/>
@@ -2136,7 +2136,7 @@ Cg
             <size key="intrinsicContentSize" width="147" height="29"/>
         </designable>
         <designable name="YGI-i2-tzO">
-            <size key="intrinsicContentSize" width="273" height="96"/>
+            <size key="intrinsicContentSize" width="285" height="96"/>
         </designable>
         <designable name="Yxb-4h-vZa">
             <size key="intrinsicContentSize" width="347" height="192"/>
@@ -2145,34 +2145,34 @@ Cg
             <size key="intrinsicContentSize" width="362" height="192"/>
         </designable>
         <designable name="auU-hj-nbc">
-            <size key="intrinsicContentSize" width="273" height="96"/>
+            <size key="intrinsicContentSize" width="291" height="96"/>
         </designable>
         <designable name="bYT-NG-k0N">
-            <size key="intrinsicContentSize" width="256" height="123"/>
+            <size key="intrinsicContentSize" width="268" height="123"/>
         </designable>
         <designable name="bwx-X7-jmv">
-            <size key="intrinsicContentSize" width="316" height="204"/>
+            <size key="intrinsicContentSize" width="313" height="204"/>
         </designable>
         <designable name="g3u-ZY-enQ">
             <size key="intrinsicContentSize" width="373" height="192"/>
         </designable>
         <designable name="jEu-aU-lp2">
-            <size key="intrinsicContentSize" width="256" height="123"/>
+            <size key="intrinsicContentSize" width="264" height="123"/>
         </designable>
         <designable name="kAS-p2-1Iq">
-            <size key="intrinsicContentSize" width="273" height="96"/>
+            <size key="intrinsicContentSize" width="291" height="96"/>
         </designable>
         <designable name="n96-jm-QaB">
             <size key="intrinsicContentSize" width="147" height="29"/>
         </designable>
         <designable name="nab-Zl-QUN">
-            <size key="intrinsicContentSize" width="273" height="96"/>
+            <size key="intrinsicContentSize" width="292" height="96"/>
         </designable>
         <designable name="rbF-Nl-KMR">
-            <size key="intrinsicContentSize" width="256" height="123"/>
+            <size key="intrinsicContentSize" width="268" height="123"/>
         </designable>
         <designable name="tti-VK-zZq">
-            <size key="intrinsicContentSize" width="256" height="123"/>
+            <size key="intrinsicContentSize" width="268" height="123"/>
         </designable>
     </designables>
     <resources>
@@ -2230,7 +2230,7 @@ Cg
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray5Color">
-            <color red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
